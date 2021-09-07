@@ -1,0 +1,13 @@
+{
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.showInStatusBar": "always",
+    "debug.toolBarLocation": "docked",
+    "debug.inlineValues": true,
+    "debug.openDebug": "openOnSessionStart",
+    "debug.showSubSessionsInToolBar": true,
+    "debug.console.closeOnEnd": true,
+    "debug.onTaskErrors": "showErrors",
+    "debug.openExplorerOnEnd": true,
+    "php.validate.executablePath": "/bin/php",
+    "php.executablePath": "/bin/php"
+}
