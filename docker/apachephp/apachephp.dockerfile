@@ -17,7 +17,7 @@ RUN echo "zend_extension=$(find /usr/local/lib/php/extensions/ -name xdebug.so)"
 RUN cat /usr/local/etc/php/conf.d/xdebug.orig.ini >> /usr/local/etc/php/conf.d/xdebug.ini
 
 RUN apt clean && rm -rf /var/lib/apt/lists/*
-RUN docker-php-ext-install mysqli mbstring exif pcntl bcmath gd ctype fileinfo
+RUN docker-php-ext-install pdo pdo_mysql mysqli mbstring exif pcntl bcmath gd ctype fileinfo
 
 
 RUN a2enmod vhost_alias
