@@ -11,6 +11,13 @@
     ],
     "configurations": [
         {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://laravel1.itec",
+            "webRoot": "${workspaceFolder}/larave1"
+        },
+        {
             "type": "firefox",
             "request": "launch",
             "name": "Firefox",
