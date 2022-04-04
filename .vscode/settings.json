@@ -9,5 +9,9 @@
     "debug.onTaskErrors": "showErrors",
     "debug.openExplorerOnEnd": true,
     "php.validate.executablePath": "c:\\php",
-    "docker.certPath": "/certs"
+    "docker.certPath": "/certs",
+    "githubPullRequests.remotes": [
+        "origingithub",
+        "upstream"
+    ]
 }
