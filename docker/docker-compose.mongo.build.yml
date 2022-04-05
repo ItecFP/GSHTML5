@@ -24,13 +24,19 @@ services:
     build:
       context: ./db
       dockerfile: mongodb/mongodb.dockerfile
+    command:
+      - '--auth'
+      - '-f'
+      - '/etc/mongod.conf'
+      - '--logpath'
+      - '/var/log/mongodb.log'
     environment: 
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_ROOT_USER}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
     ports:
       - 27017:27017
     volumes:
-      - ../mongodata:/var/lib/mongodb
+      - ../mongodata:/data
       - ../logs/mongo:/var/log/mongodb
     networks:
       - projectnetwork
