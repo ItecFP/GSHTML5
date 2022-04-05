@@ -1,2 +1,2 @@
 FROM mongo:latest
-EXPOSE ${MONGO_OUTPORT}
+EXPOSE 27017

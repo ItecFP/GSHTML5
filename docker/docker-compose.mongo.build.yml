@@ -28,13 +28,10 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_ROOT_USER}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
     ports:
-      - ${MONGO_OUTPORT}:${MONGO_INPORT}
+      - 27017:27017
     volumes:
-      - ./db/mongodb/:/etc/mongo/
       - ../mongodata:/var/lib/mongodb
-      - ../logs/mongo:/var/log/mongodb/
-
-
+      - ../logs/mongo:/var/log/mongodb
     networks:
       - projectnetwork
 networks:
