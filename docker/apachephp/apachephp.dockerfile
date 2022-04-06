@@ -19,6 +19,9 @@ RUN cat /usr/local/etc/php/conf.d/xdebug.orig.ini >> /usr/local/etc/php/conf.d/x
 RUN apt clean && rm -rf /var/lib/apt/lists/*
 RUN docker-php-ext-install pdo pdo_mysql mysqli mbstring exif pcntl bcmath gd ctype fileinfo
 
+RUN pecl install mongodb \
+    &&  echo "extension=mongodb.so" > $PHP_INI_DIR/conf.d/mongo.ini
+
 
 RUN a2enmod vhost_alias
 RUN a2enmod rewrite
