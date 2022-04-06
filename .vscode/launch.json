@@ -15,7 +15,7 @@
             "request": "launch",
             "type": "pwa-msedge",
             "url": "http://gshtml5.itec",
-            "webRoot": "${workspaceFolder}/gshtml5.itec",
+            "webRoot": "${workspaceFolder}/gshtml5",
         },
         {
             "type": "firefox",

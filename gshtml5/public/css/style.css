@@ -1,0 +1,179 @@
+/*INDEX*/
+:root{
+    --header-height: 5rem;
+    --principal0: rgba(32,32,32, 1);
+    --principal1: rgba(40,40,40, 1);
+    --principal2: rgba(48,48,48, 1);
+    --principal3: rgba(56,56,56, 1);
+    --principal4: rgba(64,64,64, 1);
+    --secundario: rgba(255, 193, 7, 0.9);
+    --secundario2: rgba(255, 193, 7, 1);
+    --secundario3: rgba(255, 193, 7, 0.3);
+}
+
+.enlaces__categorias{
+    text-decoration: none;
+    color: black;
+}
+
+.enlaces__categorias:hover{
+    color: var(--secundario2);
+}
+
+.row {
+    text-align: center;
+    font-size: x-large;
+    margin: 0 2rem;
+    height: 5rem;
+}
+
+/*INDEX*/
+@font-face {
+    font-family:'Send Flowers', cursive;
+    src: url('fonts/SendFlowers-Regular.ttf') format('ttf');
+    font-size: 35px;
+
+}
+/*FUENTE*/
+@font-face {
+    font-family: 'send_flowersregular';
+    src: url('fonts/sendflowers-regular-webfont.woff2') format('woff2'),
+         url('fonts/sendflowers-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*LOGO*/
+header{
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-indent:50px ;
+    
+}
+
+.logo{
+    font-family: send_flowersregular;
+}
+
+.guia{
+    color: white;
+    text-indent:50px;
+    line-height: 190%;
+    font-size:35px;
+    font-family: 'Quicksand', sans-serif;
+}
+.suprema{
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 0 5px rgba(255, 193, 7, 1), 0 0 10px rgba(255, 193, 7, 1), 0 0 15px rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
+    font-family: 'Send Flowers', cursive;
+}
+
+.html5 {
+    color: white;
+    text-indent:130px;
+    line-height: 190%;
+    font-size:35px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.suprema span {
+    animation: parpadear 1.0s infinite backwards;
+    animation-direction: alternate;
+}
+
+
+@keyframes parpadear{
+    to {
+        color:white;
+        text-shadow:none;
+    }
+}
+
+.logo {
+    margin: 0;
+    line-height: 150%;
+    font-size: 1rem;
+    text-decoration: none;
+}
+/*lOGO*/
+
+/*HEADER*/
+
+header{
+    background-color: var(--principal1);
+}
+
+.bottones {
+    background-color: var(--secundario);
+    border-radius: 15px;
+}
+
+.bottones:hover {
+    background-color: var(--secundario2);
+}
+
+#cerrar{
+    display: none;
+}
+
+[alt="iconmenu"]{
+    width: 2rem;
+    height: 2rem;
+}
+
+.search-button {
+    background-color: var(--secundario2);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--secundario3);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secundario3);
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secundario3);
+}
+
+/*HEADER*/
+
+/*SIDEBAR*/
+
+#sidebar {
+    overflow-Y: scroll;
+    width: 0;
+    background-color: rgb(50, 50, 60);
+    overflow-x: hidden;
+    transition: 0.3s;
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contenido {
+    overflow-Y: scroll;
+    height: calc(100vh - var(--header-height));
+    transition: margin-left 0.3s;
+}
+/*SIDEBAR*/
+
+/*BODY*/
+
+.background-dark {
+    background-color: var(--principal2);
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+/*BODY*/
+
+body{
+    overflow: hidden;
+}
