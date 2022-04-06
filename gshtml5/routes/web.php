@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/tag/{name}', [TagController::class, "showTag"]);
+Route::get('/tags', [TagController::class, "getTags"]);
+Route::get('/categoria/{name}', [TagController::class, "getCategory"]);
+Route::get('/categorias', [TagController::class, "getCategories"]);
+Route::get('/search', [TagController::class, "search"]);
