@@ -28,11 +28,12 @@ services:
       - '--auth'
       - '-f'
       - '/etc/mongod.conf'
-      - '--logpath'
-      - '/var/log/mongodb.log'
+#      - '--logpath'
+#      - '/var/log/mongodb.log'
     environment: 
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_ROOT_USER}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_DATABASE}
     ports:
       - 27017:27017
     volumes:
