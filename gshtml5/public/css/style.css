@@ -108,7 +108,7 @@ header{
     animation: fall 0.6s ease-in-out;
 }
 
-  @keyframes fall {
+  @keyframes fall /* Palabra Suprema */{
     0% {
       transform:translateY(0);
     }
@@ -123,7 +123,7 @@ header{
     }
   }
 
-  @keyframes fall2{
+  @keyframes fall2{ /* Palabra Guía */
     0% {
         transform:translateY(0);
       }
@@ -143,15 +143,15 @@ header{
     animation: fall2 0.8s ease-in-out;
 }
 
-@keyframes fall3{
+@keyframes fall3{ /* Palabra html5 */
     0% {
         transform:translateY(0);
       }
       50% {
-        transform: translateY(25px);
+        transform: translateY(0px);
       }
       75%{
-        transform: translateY(-5px);
+        transform: translateY(2px);
       }
       100%{
           transform:translateY(0);
@@ -160,7 +160,7 @@ header{
   }
   .fall3 {
     transform-origin:center;
-    animation: fall3 1s ;
+    animation: fall3 0.8s ;
 }
 
 .logo {
