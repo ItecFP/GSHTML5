@@ -1,7 +1,7 @@
 {
     "nombre": "a",
     "descripcion": "La etiqueta <a> define un hipervínculo que se utiliza para vincular un archivo a nuestra página. El atributo más importante del elemento <a> es el atributo href, que indica el destino del enlace, además es obligatorio.",
-    "ejemplo": ["<a href=\"url\">Texto</a>"],
+    "ejemplo": "<a href=/ url />Texto</a>",
     "vacio": false,
     "atributo": {
         "href": {

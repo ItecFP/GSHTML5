@@ -1,4 +1,8 @@
 /*INDEX*/
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --header-height: 5rem;
     --principal0: rgba(32,32,32, 1);
@@ -79,34 +83,79 @@ header{
     font-family: 'Logo', sans-serif;
 }
 
-.suprema span {
-    animation: parpadear 1.0s infinite backwards;
-    animation-direction: alternate;
+.parpadear {
+    animation: parpadear 2.0s infinite backwards;
 }
 
 
 @keyframes parpadear{
-        0% { opacity: 1; }
-        10% { opacity: .6; }
-        12% { opacity: 1; }
-        15% { opacity: .4; }
-        17% { opacity: 1; }
-        18% { opacity: .3; }
-        19% { opacity: 1; }
-        89% { opacity: 1; }
-        91% { opacity: .7; }
-        94% { opacity: 1; }
-        100% { opacity: 1; }
-    }
+    0% { opacity: 1; }
+    10% { opacity: .6; }
+    12% { opacity: 1; }
+    15% { opacity: .4; }
+    17% { opacity: 1; }
+    18% { opacity: .3; }
+    19% { opacity: 1; }
+    89% { opacity: 1; }
+    91% { opacity: .7; }
+    94% { opacity: 1; }
+    100% { opacity: 1; }
+}
 
 .logo {
     margin: 0;
     line-height: 150%;
     font-size: 1rem;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+/* .:::FIN:::lOGO:::.*/
+
+
+
+/* LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO) */
+
+.h{
+    font-size: 7rem;
+    font-family: 'Logo', sans-serif;
 }
 
-/*lOGO*/
+.tml{
+    font-size: 2.5rem;
+    font-family: 'Logo', sans-serif;
+}
+
+.cinco{
+    font-size: 7rem;
+    font-family: 'Logo', sans-serif;
+
+}
+
+.g{
+    font-size: 2rem;
+    font-family: 'Logo', sans-serif;
+    line-height: 2.5vh;
+    text-indent:16vw;
+}
+
+.s{
+    font-family: 'Suprema', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+   
+}
+
+
+
+
+
+
+
+/* .:::FIN:::LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO):::. */
+
+
+
 
 /*HEADER*/
 
