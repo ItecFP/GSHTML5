@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="\bootstrap-5.1.3-dist\css\bootstrap.min.css">
     <link rel="stylesheet" href="\css\styleContent.css">
     <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="/js/navbar.js"></script>
+
 </head>
 <body>
-    <header class="navbar__1 navbar-expand-sm navbar-dark text-light">
+    <header class="navbar navbar-expand-sm navbar-dark text-light">
         <div class="container-fluid d-flex justify-content-between align-content-center align-items-center">
             <div class="d-flex justify-content-center align-content-center align-items-center">
                 <div class="bottones">
