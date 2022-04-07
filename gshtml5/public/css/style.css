@@ -56,15 +56,15 @@ header{
 
 .guia{
     color: white;
+    line-height: 2vh;
     text-indent:7.3vw;
-    line-height: 50%;
     font-size:3vw;
     font-family: 'Logo', sans-serif;
 }
 
 .suprema{
     color: white;
-    line-height: 30%;
+    line-height: 3vh;
     text-indent:3.5vw;
     font-size: 6vw;
     text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
@@ -73,8 +73,8 @@ header{
 
 .html5 {
     color: white;
+    line-height: 2.5vh;
     text-indent:16vw;
-    line-height: 50%;
     font-size:3vw;
     font-family: 'Logo', sans-serif;
 }
