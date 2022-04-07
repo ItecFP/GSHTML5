@@ -56,15 +56,15 @@ header{
 
 .guia{
     color: white;
+    line-height: 2vh;
     text-indent:7.3vw;
-    line-height: 50%;
     font-size:3vw;
     font-family: 'Logo', sans-serif;
 }
 
 .suprema{
     color: white;
-    line-height: 30%;
+    line-height: 3vh;
     text-indent:3.5vw;
     font-size: 6vw;
     text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
@@ -73,8 +73,8 @@ header{
 
 .html5 {
     color: white;
+    line-height: 2.5vh;
     text-indent:16vw;
-    line-height: 50%;
     font-size:3vw;
     font-family: 'Logo', sans-serif;
 }
@@ -86,11 +86,18 @@ header{
 
 
 @keyframes parpadear{
-    to {
-        color:white;
-        text-shadow:none;
+        0% { opacity: 1; }
+        10% { opacity: .6; }
+        12% { opacity: 1; }
+        15% { opacity: .4; }
+        17% { opacity: 1; }
+        18% { opacity: .3; }
+        19% { opacity: 1; }
+        89% { opacity: 1; }
+        91% { opacity: .7; }
+        94% { opacity: 1; }
+        100% { opacity: 1; }
     }
-}
 
 .logo {
     margin: 0;
