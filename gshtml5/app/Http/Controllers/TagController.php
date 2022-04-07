@@ -7,7 +7,7 @@ use App\Models\Tag;
 
 class TagController extends Controller
 {
-    public function showTag($name)
+   public function showTag($name)
     {
         return Tag::where("nombre", "=", $name)->first();
     }
@@ -49,4 +49,14 @@ class TagController extends Controller
 
         return Tag::where($nombreCampo, "like", "%$busqueda%")->get();
     }
+
+    //funciones con los datos de las etiquetas
+
+    public function tag_a(){
+        $content_etiqueta = file_get_contents('C:\a\docker\db\mongodb\data\a.json');
+        $json_en_array_php = json_decode($content_etiqueta, true);
+
+        print_r($json_en_array_php);
+    }
+
 }

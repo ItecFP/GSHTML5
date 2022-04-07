@@ -32,3 +32,8 @@ Route::get('/categoria/{name}', function($name){
 });
 Route::get('/categorias', [TagController::class, "getCategories"]);
 Route::get('/search', [TagController::class, "search"]);
+
+
+Route::get('/tag_a', [TagController::class, "tag_a"]);
+
+
