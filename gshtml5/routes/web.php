@@ -33,5 +33,8 @@ Route::get('/search', [TagController::class, "search"]);
 
 
 Route::get('/tag_a', [TagController::class, "tag_a"]);
+Route::get('/tag_abbr', [TagController::class, "tag_abbr"]);
+Route::get('/tag_address', [TagController::class, "tag_address"]);
+Route::get('/tag_del', [TagController::class, "tag_del"]);
 
 
