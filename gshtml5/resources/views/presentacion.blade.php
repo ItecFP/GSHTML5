@@ -1,4 +1,4 @@
-<div class="p-4 mb-12 bg-light rounded-3">
+<div class="p-4 mb-12 rounded-3">
     <div class="container-fluid">
         <h2 class="display-5 fw-bold">Nuestro proyecto</h2>
         <a href="./categoria.html">Categorias</a>

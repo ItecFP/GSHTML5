@@ -28,17 +28,12 @@
 }
 
 /*INDEX*/
-@font-face {
-    font-family:'Send Flowers', cursive;
-    src: url('fonts/SendFlowers-Regular.ttf') format('ttf');
-    font-size: 35px;
 
-}
 /*FUENTE*/
 @font-face {
-    font-family: 'send_flowersregular';
-    src: url('fonts/sendflowers-regular-webfont.woff2') format('woff2'),
-         url('fonts/sendflowers-regular-webfont.woff') format('woff');
+    font-family: 'Suprema';
+    src: url('../fonts/lobster-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lobster-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -53,29 +48,26 @@ header{
     
 }
 
-.logo{
-    font-family: send_flowersregular;
-}
-
 .guia{
     color: white;
     text-indent:50px;
-    line-height: 190%;
-    font-size:35px;
+    line-height: 110%;
+    font-size:3vw;
     font-family: 'Quicksand', sans-serif;
 }
+
 .suprema{
     color: white;
-    font-size: 60px;
+    font-size: 6vw;
     text-shadow: 0 0 5px rgba(255, 193, 7, 1), 0 0 10px rgba(255, 193, 7, 1), 0 0 15px rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
-    font-family: 'Send Flowers', cursive;
+    font-family: 'Suprema', cursive;
 }
 
 .html5 {
     color: white;
-    text-indent:130px;
-    line-height: 190%;
-    font-size:35px;
+    text-indent:160px;
+    line-height: 110%;
+    font-size:3vw;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -98,6 +90,7 @@ header{
     font-size: 1rem;
     text-decoration: none;
 }
+
 /*lOGO*/
 
 /*HEADER*/
@@ -161,6 +154,7 @@ header{
     height: calc(100vh - var(--header-height));
     transition: margin-left 0.3s;
 }
+
 /*SIDEBAR*/
 
 /*BODY*/
@@ -172,6 +166,7 @@ header{
 h2 {
     font-size: 1.1rem;
 }
+
 /*BODY*/
 
 body{
