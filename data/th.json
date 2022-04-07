@@ -1,0 +1,49 @@
+{
+    "nombre": "th",
+    "descripcion": "El elemento <th> define una celda como encabezado de un grupo de celdas en una tabla.",
+    "ejemplo": [
+        "<th>Contenido...</th>"
+    ],
+    "vacio": false,
+    "categoria": "Tablas",
+    "atributo": {
+        "headers": {
+            "descripcion": "Este atributo contiene una lista de cadenas separadas por espacios, cada uno correspondiente al atributo ID de los elementos <th> que se aplican a este elemento.",
+            "booleano": false,
+            "valor": "ID del <th> al que pertenece.",
+            "ejemplo": [
+                "<th headers=\"id-th\"></th>"
+            ]
+        },
+        "colspan": {
+            "descripcion": "Este atributo contiene un valor entero no negativo que indica a cuántas columnas se extiende.",
+            "booleano": false,
+            "valor": "Número entero.",
+            "ejemplo": [
+                "<th colspan=\"2\"></th>"
+            ]
+        },
+        "rowspan": {
+            "descripcion": "Este atributo contiene un valor entero no negativo que indica a cuántas filas se extiende.",
+            "booleano": false,
+            "valor": "Número entero.",
+            "ejemplo": [
+                "<th rowspan=\"2\"></th>"
+            ]
+        },
+        "scope": {
+            "descripcion": "Este atributo enumerado define las celdas con las que <th> se relaciona el elemento de encabezado. Puede tener los siguientes valores:",
+            "booleano": false,
+            "valor": {
+                "row": "El encabezado se relaciona con todas las celdas de la fila a la que pertenece.",
+                "col": "El encabezado se relaciona con todas las celdas de la columna a la que pertenece.",
+                "rowgroup": "El encabezado pertenece a un grupo de filas y se relaciona con todas sus celdas.",
+                "colgroup": "El encabezado pertenece a un colgroup y se relaciona con todas sus celdas.",
+                "auto": "Automatico."
+            },
+            "ejemplo": [
+                "<th scope=\"auto\"></th>"
+            ]
+        }
+    }
+}

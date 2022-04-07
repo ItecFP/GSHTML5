@@ -1,0 +1,10 @@
+{
+    "nombre": "summary",
+    "descripcion": "El elemento HTML especifica un resumen, un título o una leyenda para el cuadro de información de un elemento. Al hacer clic en el elemento, el estado del elemento principal cambia entre abierto y cerrado.",
+    "ejemplo": [
+        "<details> <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary> A keyboard. </details>"
+    ],
+    "vacio": false,
+    "categoria": "Elementos interactivos",
+    "atributo": {}
+}

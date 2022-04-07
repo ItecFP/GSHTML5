@@ -1,0 +1,9 @@
+{
+    "nombre": "select",
+    "descripcion": "El elemento select (<select>) de HTML representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos <option>, los cuales pueden ser agrupados por elementos <optgroup> (en-US). La opcion puede estar preseleccionada por el usuario.",
+    "ejemplo": [
+        "<select name=\"select\"> <option value=\"value1\">Value 1</option> <option value=\"value2\" selected>Value 2</option> <option value=\"value3\">Value 3</option> </select>"
+    ],
+    "vacio": false,
+    "atributo": {}
+}
