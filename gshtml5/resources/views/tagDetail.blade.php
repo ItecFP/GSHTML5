@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/styleContent.css">
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/navbar.js"></script>
-    <title>Etiqueta $nombre_etiqueta</title>
+    <title>Etiqueta {{$tagdata["nombre"]}}</title>
 </head>
 <body>
     <header class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
@@ -21,51 +21,7 @@
     <main>
         
         @include('tagDetailContent')
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
-        <p>agaad</p>
+       {{print_r($tagdata)}}
     </main>
 </body>
 </html>

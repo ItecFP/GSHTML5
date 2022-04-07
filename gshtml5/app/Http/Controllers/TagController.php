@@ -56,7 +56,7 @@ class TagController extends Controller
         $content_etiqueta = file_get_contents('C:\a\docker\db\mongodb\data\a.json');
         $json_en_array_php = json_decode($content_etiqueta, true);
 
-        print_r($json_en_array_php);
+        return view("tagDetail",["tagdata"=>$json_en_array_php]);
     }
 
 }
