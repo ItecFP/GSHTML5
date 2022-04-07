@@ -36,18 +36,13 @@
          url('../fonts/lobster-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 @font-face {
-    font-family: 'Guia';
+    font-family: 'Logo';
     src: url('../fonts/racingsansone-regular-webfont.woff2') format('woff2'),
          url('../fonts/racingsansone-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*LOGO*/
@@ -61,14 +56,15 @@ header{
 
 .guia{
     color: white;
-    text-indent:50px;
-    line-height: 110%;
+    text-indent:7.3vw;
+    line-height: 50%;
     font-size:3vw;
-    font-family: 'Guia', sans-serif;
+    font-family: 'Logo', sans-serif;
 }
 
 .suprema{
     color: white;
+    line-height: 30%;
     font-size: 6vw;
     text-shadow: 0 0 5px rgba(255, 193, 7, 1), 0 0 10px rgba(255, 193, 7, 1), 0 0 15px rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
     font-family: 'Suprema', cursive;
@@ -76,10 +72,10 @@ header{
 
 .html5 {
     color: white;
-    text-indent:160px;
-    line-height: 110%;
+    text-indent:16vw;
+    line-height: 50%;
     font-size:3vw;
-    font-family: 'Guia', sans-serif;
+    font-family: 'Logo', sans-serif;
 }
 
 .suprema span {
@@ -149,22 +145,6 @@ header{
 
 /*SIDEBAR*/
 
-#sidebar {
-    overflow-Y: scroll;
-    width: 0;
-    background-color: rgb(50, 50, 60);
-    overflow-x: hidden;
-    transition: 0.3s;
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#contenido {
-    overflow-Y: scroll;
-    height: calc(100vh - var(--header-height));
-    transition: margin-left 0.3s;
-}
 
 /*SIDEBAR*/
 
@@ -179,7 +159,3 @@ h2 {
 }
 
 /*BODY*/
-
-body{
-    overflow: hidden;
-}
