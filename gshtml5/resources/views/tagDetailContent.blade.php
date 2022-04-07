@@ -6,8 +6,8 @@
         <a name="descripcion"></a>
         <div class="card-header">Etiqueta</div>
         <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text"></p>
+        <h5 class="card-title">Descripcion de etiqueta Subtitulo</h5>
+        <p class="card-text">Contenido de la etiqueta</p>
         </div>
         
     </section>
@@ -18,7 +18,7 @@
         <div class="card-header"># Atributos</div>
         <div class="card-body">
         <h5 class="card-title">Atributos</h5>
-        <p class="card-text"></p>
+        <p class="card-text">Descripcion de atributos</p>
            
         </div>
         
