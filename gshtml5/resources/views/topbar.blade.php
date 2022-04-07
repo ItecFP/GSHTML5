@@ -3,7 +3,7 @@
                 <a class="logo" href="./index.html">
                     <h1 id="logo">
                         <p class="guia">Guía</p>
-                        <p class="suprema"><span>S</span>uprem<span class="text">a</span></p>
+                        <p class="suprema"><span class="parpadear">S</span>uprem<span class="text">a</span></p>
                         <p class="html5">HTML5</p>
                     </h1>
                 </a>
