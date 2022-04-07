@@ -84,6 +84,9 @@ header{
     font-family: 'Logo', sans-serif;
 }
 
+/* EFECTOS */ 
+
+        /* PARPADEOS NEON */
 .parpadear {
     animation: parpadear 2.0s infinite backwards;
 }
@@ -103,6 +106,28 @@ header{
     100% { opacity: 1; }
 }
 
+@keyframes parpadear2{
+    0% { opacity: 1; }
+    10% { opacity: .6; }
+    12% { opacity: 1; }
+    15% { opacity: .4; }
+    17% { opacity: 1; }
+    18% { opacity: .3; }
+    19% { opacity: 1; }
+    89% { opacity: 1; }
+    91% { opacity: .7; }
+    94% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+.parpadear2 {
+    animation: parpadear2 2.0s infinite backwards;
+}
+
+
+        /* .:::FIN::PARPADEOS NEON:::. */
+
+        /* MOVIMIENTOS */
 .fall {
     transform-origin:center;
     animation: fall 0.6s ease-in-out;
@@ -123,6 +148,7 @@ header{
     }
   }
 
+  
   @keyframes fall2{ /* Palabra Guía */
     0% {
         transform:translateY(0);
@@ -163,6 +189,40 @@ header{
     animation: fall3 0.8s ;
 }
 
+.fall {
+    transform-origin:center;
+    animation: fall 0.6s ease-in-out;
+}
+            /*LOGO SECUNDARIO*/
+
+/* @keyframes fall4 Palabra Suprema {
+    0% {
+      transform:translateY(0);
+    }
+    25% {
+      transform: translateY(-60px);
+    }
+    75%{
+      transform: translateY(35px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
+  
+.fall4 {
+    transform-origin:center;
+    animation: fall4 0.6s ease-in-out;
+}
+*/
+            /* .:::FIN:::LOGO SECUNDARIO:::.*/
+
+        /*.:::FIN:::MOVIMIENTOS:::.
+
+
+/* .:::FIN:::EFECTOS:::.*/
+
 .logo {
     margin: 0;
     line-height: 150%;
@@ -176,7 +236,7 @@ header{
 /* LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO) */
 
 .h{
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-family: 'Logo', sans-serif;
     color: white;
   
@@ -189,7 +249,7 @@ header{
 }
 
 .cinco{
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-family: 'Logo', sans-serif;
     color: white;
 
@@ -199,8 +259,8 @@ header{
     font-family: 'Suprema', cursive;
     position: absolute; 
     font-size: 2.5rem;
-    right: 84.6vw;
-    top: 4.6vw;
+    right: 84vw;
+    top: 3.4vw;
     
 }
 
@@ -208,8 +268,8 @@ header{
     font-family: 'Logo', cursive;
     position: absolute; 
     font-size: 2.6rem;
-    right: 86.4vw;
-    top: 3.6vw;
+    right: 86vw;
+    top: 2.4vw;
     
 }
 
