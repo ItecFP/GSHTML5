@@ -103,7 +103,6 @@ header{
     100% { opacity: 1; }
 }
 
-<<<<<<< HEAD
 .fall {
     transform-origin:center;
     animation: fall 0.6s ease-in-out;
@@ -125,8 +124,6 @@ header{
   }
 
 
-=======
->>>>>>> cd8516c6df5e64c254280b2b562631ab14990c55
 .logo {
     margin: 0;
     line-height: 150%;
