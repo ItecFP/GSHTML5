@@ -110,6 +110,8 @@ header{
 }
 /* .:::FIN:::lOGO:::.*/
 
+
+
 /* LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO) */
 
 .h{
@@ -131,14 +133,17 @@ header{
 .g{
     font-size: 2rem;
     font-family: 'Logo', sans-serif;
-    
-
+    line-height: 2.5vh;
+    text-indent:16vw;
 }
 
 .s{
     font-family: 'Suprema', cursive;
     font-size: 2.5rem;
-
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+   
 }
 
 
@@ -148,6 +153,9 @@ header{
 
 
 /* .:::FIN:::LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO):::. */
+
+
+
 
 /*HEADER*/
 
