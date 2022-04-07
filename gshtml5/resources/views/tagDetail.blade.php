@@ -13,10 +13,10 @@
 </head>
 <body>
     <header class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
-        @include('topbarContent')
+        @include('topbar')
         
     </header>
-    
+    @include('navContent')
     
     <main>
         
