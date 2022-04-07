@@ -1,6 +1,6 @@
 {
     "nombre": "th",
-    "descripcion": "El elemento <th> define una celda como encabezado de un grupo de celdas en una tabla.",
+    "descripcion": "El elemento th define una celda como encabezado de un grupo de celdas en una tabla.",
     "ejemplo": [
         "<th>Contenido...</th>"
     ],
@@ -39,7 +39,7 @@
                 "col": "El encabezado se relaciona con todas las celdas de la columna a la que pertenece.",
                 "rowgroup": "El encabezado pertenece a un grupo de filas y se relaciona con todas sus celdas.",
                 "colgroup": "El encabezado pertenece a un colgroup y se relaciona con todas sus celdas.",
-                "auto": "Automatico."
+                "auto": "Automático."
             },
             "ejemplo": [
                 "<th scope=\"auto\"></th>"

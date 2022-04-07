@@ -5,6 +5,6 @@
         "<p>Esta etiqueta no es recomendable<br>ya que existen mejores formas de estructurar una página.</p>"
     ],
     "vacio": true,
-    "atributo": {},
-    "categoria": "Texto"
+    "categoria": "Texto",
+    "atributo": {}
 }

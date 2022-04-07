@@ -5,6 +5,7 @@
         "<bdi>مرحبا بالعالم</bdi>"
     ],
     "vacio": false,
-    "atributo": {},
-    "categoria": "Texto"
+    "categoria": "Texto",
+    "atributo": {}
+    
 }

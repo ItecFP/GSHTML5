@@ -5,11 +5,13 @@
         "<details>Contenido...</details>"
     ],
     "vacio": false,
-    "categoria": "Elementos Interactivos",
+    "categoria": "Elementos interactivos",
     "atributo": {
         "open": {
             "descripcion": "Indica si los detalles serán mostrados al usuario cuando la página se cargue. Por defecto es false.",
-            "booleano": true
+            "booleano": true,
+            "valor": "",
+            "ejemplo": []
         }
     }
 }
