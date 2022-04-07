@@ -36,7 +36,13 @@
          url('../fonts/lobster-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'Logo';
+    src: url('../fonts/racingsansone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/racingsansone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*LOGO*/
@@ -50,26 +56,26 @@ header{
 
 .guia{
     color: white;
-    text-indent:8vw;
+    text-indent:7.3vw;
     line-height: 50%;
     font-size:3vw;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Logo', sans-serif;
 }
 
 .suprema{
     color: white;
-    line-height: 50%;
+    line-height: 30%;
     font-size: 6vw;
-    text-shadow: 0 0 5px rgba(255, 193, 7, 1), 0 0 10px rgba(255, 193, 7, 1), 0 0 15px rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
+    text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
     font-family: 'Suprema', cursive;
 }
 
 .html5 {
     color: white;
-    text-indent:12vw;
+    text-indent:16vw;
     line-height: 50%;
     font-size:3vw;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Logo', sans-serif;
 }
 
 .suprema span {

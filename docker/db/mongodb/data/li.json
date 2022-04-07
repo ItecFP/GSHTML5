@@ -1,0 +1,43 @@
+{
+    "nombre": "li",
+    "descripcion": "El elemento li del ingles item list o elemento de lista declara cada uno de los elementos de una lista. Sus etiquetas son: <li> y </li> (la de cierre es opcional). Crea una caja: en bloque. Está definido como: Puede contener: cero o más elementos en bloque o en en linea.",
+    "ejemplo": [
+        "<ul> <li>punto uno</li> <li>punto dos</li> <li>punto tres</li> </ul>"
+    ],
+    "vacio": false,
+    "categoria": "Listas",
+    "atributo": {
+        "title": {
+            "descripcion": "título consultivo del elemento.",
+            "booleano": false,
+            "valor": "",
+            "ejemplo": []
+        },
+        "Reglas de estilo": {
+            "descripcion": "Información de estilo en línea.",
+            "booleano": false,
+            "valor": [],
+            "ejemplo": [    ]
+        },
+        "ID": {
+            "descripcion": "identificador único a nivel de documento.",
+            "booleano": false,
+            "valor": [],
+            "ejemplo": []
+        },
+
+        "(ltr|rtl)": {
+            "descripcion": "dirección del texto débil/neutral",
+            "booleano": false,
+            "valor": [],
+            "ejemplo": []
+        },
+
+        "código de idioma": {
+            "descripcion": "información sobre el idioma",
+            "booleano": false,
+            "valor": [],
+            "ejemplo": []
+        }
+    }
+}

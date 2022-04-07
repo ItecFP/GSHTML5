@@ -1,0 +1,15 @@
+{
+    "nombre": "details",
+    "descripcion": "Esta etiqueta se usa para definir un fragmento de código de computadora. El contenido del interior se muestra en la fuente monoespaciada predeterminada del navegador.",
+    "ejemplo": [
+        "<details>Contenido...</details>"
+    ],
+    "vacio": false,
+    "categoria": "Elementos Interactivos",
+    "atributo": {
+        "open": {
+            "descripcion": "Indica si los detalles serán mostrados al usuario cuando la página se cargue. Por defecto es false.",
+            "booleano": true
+        }
+    }
+}
