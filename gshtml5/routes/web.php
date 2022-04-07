@@ -21,9 +21,7 @@ Route::get('/content/ejemplo', function () {
     return view('content');
 });
 
-Route::get('/content', function(){
-    return view('tagDetail');
-});
+Route::get('/content',[TagController::class, "tag_a"]);
 Route::get('/tag/{name}', [TagController::class, "showTag"]);
 Route::get('/tags', [TagController::class, "getTags"]);
 //Route::get('/categoria/{name}', [TagController::class, "getCategory"]);
