@@ -39,6 +39,17 @@
 
 }
 
+
+
+@font-face {
+    font-family: 'Guia';
+    src: url('../fonts/racingsansone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/racingsansone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*LOGO*/
 header{
     background-color: black;
@@ -53,7 +64,7 @@ header{
     text-indent:50px;
     line-height: 110%;
     font-size:3vw;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Guia', sans-serif;
 }
 
 .suprema{
@@ -68,7 +79,7 @@ header{
     text-indent:160px;
     line-height: 110%;
     font-size:3vw;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Guia', sans-serif;
 }
 
 .suprema span {

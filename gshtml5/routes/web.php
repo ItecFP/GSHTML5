@@ -26,6 +26,9 @@ Route::get('/content', function(){
 });
 Route::get('/tag/{name}', [TagController::class, "showTag"]);
 Route::get('/tags', [TagController::class, "getTags"]);
-Route::get('/categoria/{name}', [TagController::class, "getCategory"]);
+//Route::get('/categoria/{name}', [TagController::class, "getCategory"]);
+Route::get('/categoria/{name}', function($name){
+    return view("categoriadetails");
+});
 Route::get('/categorias', [TagController::class, "getCategories"]);
 Route::get('/search', [TagController::class, "search"]);
