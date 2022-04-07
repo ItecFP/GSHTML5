@@ -17,7 +17,9 @@ use App\Http\Controllers\TagController;
 Route::get('/', function () {
     return view('index');
 });
-
+Route::get('/content/ejemplo', function () {
+    return view('content');
+});
 Route::get('/tag/{name}', [TagController::class, "showTag"]);
 Route::get('/tags', [TagController::class, "getTags"]);
 //Route::get('/categoria/{name}', [TagController::class, "getCategory"]);
