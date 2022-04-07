@@ -14,13 +14,10 @@
 
 <body>
 
-    <header class="navbar navbar-expand-sm navbar-dark text-light">
+    <header id ="topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
        @include('topbar')
     </header>
     <div class="d-flex">
-        <aside id="sidebar" class="position-fixed">
-            @include('sidebar')
-        </aside>
         <main id="contenido">
             @include('presentacion')
             @include('categoriagrid')
@@ -29,24 +26,20 @@
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
-
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
-
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
-
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
             @include('categoriagrid')
-
         </main>
     </div>
 </body>

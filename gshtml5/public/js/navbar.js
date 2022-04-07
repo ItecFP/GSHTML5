@@ -1,14 +1,10 @@
-document.window.scroll(function(){
-    if (document.scrollTop()>10) {
-        document.getElementById("logo").innerHTML = '<p class="suprema">G<span>S</span>HTML5</p>';
-    }
-})
+window.addEventListener("scroll",shrink);
 
-// $(window).scroll(function() {
-//     if ($(document).scrollTop() > 150) {
-//         $('.navbar').addClass('shrink');
-//     }
-//     else {
-//         $('.navbar').removeClass('shrink');
-//     }
-// });
+function shrink(){
+    if (window.scrollY > 200) {
+        document.getElementById("logo").innerHTML = '<p class="suprema mt-4 mb-4">G<span>S</span>HTML5</p>';
+    }
+    if (window.scrollY <= 0){
+        document.getElementById("logo").innerHTML = '<p class="guia">Guía</p><p class="suprema"><span>S<span>uprema </p><p class="html5">HTML5</p>';
+    }
+}
