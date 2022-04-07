@@ -1,7 +1,7 @@
 <div class="container-fluid d-flex justify-content-between align-content-center align-items-center">
             <div class="d-flex justify-content-center align-content-center align-items-center">
                 <a class="logo" href="./index.html">
-                    <h1 class="logo">
+                    <h1 id="logo">
                         <p class="guia">Guía</p>
                         <p class="suprema"><span>S</span>uprema </p>
                         <p class="html5">HTML5</p>

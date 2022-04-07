@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/sidebar.js"></script>
+    <script src="/js/navbar.js"></script>
 </head>
 
 <body>
@@ -24,6 +24,29 @@
         <main id="contenido">
             @include('presentacion')
             @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+            @include('categoriagrid')
+
         </main>
     </div>
 </body>
