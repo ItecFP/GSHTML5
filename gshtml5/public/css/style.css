@@ -33,7 +33,7 @@
 
 /*INDEX*/
 
-/*FUENTE*/
+/*FUENTES*/
 @font-face {
     font-family: 'Suprema';
     src: url('../fonts/lobster-regular-webfont.woff2') format('woff2'),
@@ -61,7 +61,7 @@ header{
 .guia{
     color: white;
     line-height: 2vh;
-    text-indent:7.3vw;
+    text-indent:7.1vw;
     font-size:3vw;
     font-family: 'Logo', sans-serif;
 }
@@ -115,35 +115,41 @@ header{
 /* LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO) */
 
 .h{
-    font-size: 7rem;
+    font-size: 5rem;
     font-family: 'Logo', sans-serif;
+    color: white;
+  
 }
 
 .tml{
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     font-family: 'Logo', sans-serif;
+    color: white;
 }
 
 .cinco{
-    font-size: 7rem;
+    font-size: 5rem;
     font-family: 'Logo', sans-serif;
+    color: white;
 
-}
-
-.g{
-    font-size: 2rem;
-    font-family: 'Logo', sans-serif;
-    line-height: 2.5vh;
-    text-indent:16vw;
 }
 
 .s{
     font-family: 'Suprema', cursive;
+    position: absolute; 
     font-size: 2.5rem;
-    text-align: center;
-    width: 100%;
-    display: inline-block;
-   
+    right: 84.6vw;
+    top: 4.6vw;
+    
+}
+
+.g{
+    font-family: 'Logo', cursive;
+    position: absolute; 
+    font-size: 2.6rem;
+    right: 86.4vw;
+    top: 3.6vw;
+    
 }
 
 
