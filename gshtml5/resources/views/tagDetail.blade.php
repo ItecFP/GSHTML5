@@ -9,19 +9,17 @@
     <link rel="stylesheet" href="/css/styleContent.css">
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/navbar.js"></script>
-    <title>Etiqueta #nombre_etiqueta</title>
+    <title>Etiqueta $nombre_etiqueta</title>
 </head>
 <body>
     <header class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
-        @include('topbar')
+        @include('topbarContent')
         
     </header>
     
     
     <main>
-        <aside>
-           @include('navContent')
-        </aside>
+        
         @include('tagDetailContent')
         <p>agaad</p>
         <p>agaad</p>
