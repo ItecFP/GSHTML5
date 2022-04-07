@@ -5,6 +5,7 @@
         "<audio src=\"./test.mp3/\" controls></audio>"
     ],
     "vacio": false,
+    "categoria": "Contenido incrustado",
     "atributo": {
         "autoplay": {
             "descripcion": "Especifica que el audio comenzará a reproducirse tan pronto como esté listo",

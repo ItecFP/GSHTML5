@@ -1,6 +1,6 @@
 {
     "nombre": "legend",
-    "descripcion": "Esta etiqueta se usa para definir un fragmento de código de computadora. El contenido del interior se muestra en la fuente monoespaciada predeterminada del navegador.",
+    "descripcion": "Esta etiqueta se usa para definir un fragmento de código de computadora. El contenido del interior se muestra en la fuente mono espaciada predeterminada del navegador.",
     "ejemplo": [
         "<legend>Titulo Fieldset</legend>"
     ],
@@ -8,7 +8,7 @@
     "categoria": "Formularios",
     "atributo": {
         "accesskey": {
-            "descripcion": "carácter de la tecla de acceso rápido.",
+            "descripcion": "Carácter de la tecla de acceso rápido.",
             "booleano": false,
             "valor": "Valor Entero",
             "ejemplo": [

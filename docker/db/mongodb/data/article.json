@@ -5,5 +5,6 @@
         "<article><h4>Microsoft Edge</h4><p>Es el navegador web de Microsoft</p></article><article><h4>Google Chrome</h4><p>Es el navegador web de Google</p></article>"
     ],
     "vacio": false,
+    "categoria": "Secciones",
     "atributo": {}
 }
