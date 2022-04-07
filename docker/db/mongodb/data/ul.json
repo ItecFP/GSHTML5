@@ -1,0 +1,64 @@
+{
+    "nombre": "li",
+    "descripcion": "ul de \"unordered list\" -lista no ordenada . crea una lista no ordenada. Sus etiquetas son: <ul> y </ul> (ambas obligatorias). Está definido como: Elemento para listas. Crea una caja: En bloque. Puede contener: Uno o más elementos li",
+    "ejemplo": [
+        "<ul> <li>Esto</li> <li>Lo otro</li> <li>Lo de más allá</li> </ul>"
+    ],
+    "vacio": false,
+    "categoria": "Listas",
+    "atributo": {
+        "title": {
+            "descripcion": "Texto informativo o título del elemento. Suele mostrarse a modo de \"tool tip\".",
+            "booleano": false,
+            "valor": "Texto legible por personas. Sensible a M/m.. Por defecto: Lo fija el navegador.",
+            "ejemplo": []
+        },
+        "id": {
+            "descripcion": "Le da un nombre al elemento que lo diferencia de todos los demás del documento.",
+            "booleano": false,
+            "valor": "Un nombre único. Sensible a M/m. Por defecto: Lo fija el navegador.",
+            "ejemplo": [    ]
+        },
+        "class": {
+            "descripcion": "Asigna nombres de clases al elemento. Por defecto, clases CSS.",
+            "booleano": false,
+            "valor": "Lista de clases separadas por espacio en blanco. Sensible a M/m. Por defecto: Lo fija el navegador.",
+            "ejemplo": []
+        },
+
+        "style": {
+            "descripcion": "Permite especificar información de estilo. Por defecto, estilos CSS.",
+            "booleano": false,
+            "valor": "Declaraciones de estilo. Por defecto: Lo fija el navegador.",
+            "ejemplo": []
+        },
+
+        "lang": {
+            "descripcion": "Información sobre el idioma del contenido del elemento y del valor de sus atributos.",
+            "booleano": false,
+            "valor": "Un código de idioma. Por defecto: \"desconocido\". Lo fija el navegador.",
+            "ejemplo": []
+        },
+
+        "dir": {
+            "descripcion": "Indica la dirección de texto y tablas.",
+            "booleano": false,
+            "valor": "Uno de los siguientes: 'ltr' o 'rtl'. Por defecto: En castellano 'ltr'. Lo fija el navegador.",
+            "ejemplo": []
+        },
+
+        "type": {
+            "descripcion": "Indica el estilo de los items de la lista.",
+            "booleano": false,
+            "valor": "Uno de los siguientes: 'disc', 'square', o 'circle'. Por defecto: depende del anidamiento, lo fija el navegador",
+            "ejemplo": []
+        },
+
+        "compact": {
+            "descripcion": "Indica que la lista debe mostrase conpactada.",
+            "booleano": false,
+            "valor": "Solo puede ser: 'compact'. Por defecto: Lo fija el navegador.",
+            "ejemplo": []
+        }
+    }
+}

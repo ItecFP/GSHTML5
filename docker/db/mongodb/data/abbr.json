@@ -1,0 +1,9 @@
+{
+    "nombre": "abbr",
+    "descripcion": "Esta etiqueta sirve para definir una abreviatura. Haciendo que al pasar el ratón por encima se muestre.",
+    "ejemplo": [
+        "<abbr title=\"HyperText Markup Language\">HTML</abbr>"
+    ],
+    "vacio": false,
+    "atributo": {}
+}

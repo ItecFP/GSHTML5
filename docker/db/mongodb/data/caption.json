@@ -1,0 +1,10 @@
+{
+    "nombre": "caption",
+    "descripcion": "Esta etiqueta define el titulo de una tabla, debe ir dentro de una etiqueta <table>.",
+    "ejemplo": [
+        "<table><caption>Titulo Tabla</caption></table>"
+    ],
+    "vacio": false,
+    "categoria": "Tablas",
+    "atributo": {}
+}

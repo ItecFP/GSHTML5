@@ -1,0 +1,10 @@
+{
+    "nombre": "br",
+    "descripcion": "Esta etiqueta se utiliza para introducir un salto de línea.",
+    "ejemplo": [
+        "<p>Esta etiqueta no es recomendable<br>ya que existen mejores formas de estructurar una página.</p>"
+    ],
+    "vacio": true,
+    "atributo": {},
+    "categoria": "Texto"
+}
