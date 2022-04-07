@@ -1,4 +1,4 @@
-<!--navegacion de contenido, nombre etiqueta, descripcion, contenido y ejemplo
+<!--navegacion de contenido, nombre etiqueta, descripcion, contenido y ejemplo-->
 <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
       <a class="nav-link link-warning" href="#">Etiqueta</a>
@@ -21,4 +21,4 @@
        
       </div>
     </div>
-  </nav>-->
+  </nav>
