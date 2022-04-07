@@ -65,6 +65,7 @@ header{
 .suprema{
     color: white;
     line-height: 30%;
+    text-indent:3.5vw;
     font-size: 6vw;
     text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
     font-family: 'Suprema', cursive;

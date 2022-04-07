@@ -1,7 +1,7 @@
 window.addEventListener("scroll",shrink);
 
 function shrink(){
-    if (window.scrollY > 200) {
+    if (window.scrollY > 200 || window.innerWidth <= 576) {
         document.getElementById("logo").innerHTML = '<p class="suprema mt-4 mb-4">G<span>S</span>HTML5</p>';
     }
     if (window.scrollY <= 0){
