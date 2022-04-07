@@ -5,6 +5,6 @@
         "<!DOCTYPE html> <html> <head> <title>Documento</title> </head> <body> <h1>Titulo</h1> <p>Parrafo</p> </body> </html>"
     ],
     "vacio": false,
-    "atributo": {},
-    "categoria": "Bloques de contenido"
+    "categoria": "Bloques de contenido",
+    "atributo": {}
 }

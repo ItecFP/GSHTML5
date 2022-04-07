@@ -1,7 +1,10 @@
 {
     "nombre": "!DOCTYPE",
     "descripcion": "Es la etiqueta de inicio de todos los archivos html, se utiliza para informar al navegador del tipo de documento. No tiene representación ya que es una etiqueta para el navegador.",
-    "ejemplo": ["<!DOCTYPE html>"],
+    "ejemplo": [
+        "<!DOCTYPE html>"
+    ],
     "vacio": true,
+    "categoria": "Raíz",
     "atributo": {}
 }

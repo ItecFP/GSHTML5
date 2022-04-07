@@ -1,9 +1,66 @@
 {
     "nombre": "select",
-    "descripcion": "El elemento select (<select>) de HTML representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos <option>, los cuales pueden ser agrupados por elementos <optgroup> (en-US). La opcion puede estar preseleccionada por el usuario.",
+    "descripcion": "El elemento select representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos <option>, los cuales pueden ser agrupados por elementos <optgroup>. La opción puede estar preseleccionada por el usuario.",
     "ejemplo": [
-        "<select name=\"select\"> <option value=\"value1\">Value 1</option> <option value=\"value2\" selected>Value 2</option> <option value=\"value3\">Value 3</option> </select>"
+        "<select name=\"select\" multiple size=\"4\" required>Opciones...</select>"
     ],
     "vacio": false,
-    "atributo": {}
+    "atributo": {
+        "autofocus": {
+            "descripcion": "Este atributo permite especificar un formulario de control que debería tener enfoque de entrada cuando se carga la página, a no ser que el usuario lo sobre escriba escribiendo un control diferente. Solo un formulario puede tener el elemento de enfoque de entrada por documento, por lo cual es un atributo booleano.",
+            "booleano": true,
+            "valor": {},
+            "ejemplo": [
+                "<select autofocus>Opciones...</select>"
+            ]
+        },
+        "disabled": {
+            "descripcion": "El atributo booleano especifica que el usuario no puede interactuar con el control. Si este atributo no está especificado, el control hereda los ajustes del campo que lo contiene.",
+            "booleano": true,
+            "valor": {},
+            "ejemplo": [
+                "<select disabled>Opciones...</select>"
+            ]
+        },
+        "form": {
+            "descripcion": "El elemento formulario al cual el select está asociado. Si este atributo está especificado, su valor deberá ser el ID de un formulario del mismo documento.",
+            "booleano": false,
+            "valor": "ID formulario",
+            "ejemplo": [
+                "<select form=\"formulario-id\">Opciones...</select>"
+            ]
+        },
+        "multiple": {
+            "descripcion": "Este elemento booleano indica que se pueden seleccionar múltiples opciones de la lista. Si no está especificado, solo se podrá seleccionar una opción cada vez.",
+            "booleano": true,
+            "valor": {},
+            "ejemplo": [
+                "<select multiple=\"4\">Opciones...</select>"
+            ]
+        },
+        "name": {
+            "descripcion": "El nombre del elemento de control.",
+            "booleano": false,
+            "valor": "Nombre",
+            "ejemplo": [
+                "<select name=\"formulario1\">Opciones...</select>"
+            ]
+        },
+        "required": {
+            "descripcion": "",
+            "booleano": true,
+            "valor": "Es un elemento booleano que indica si la opción puede quedar sin seleccionar o si es requerida.",
+            "ejemplo": [
+                "<select required>Opciones...</select>"
+            ]
+        },
+        "size": {
+            "descripcion": "Si el control se presenta como una lista con scroll en caja, este atributo representa el numero de filas que la list tendrá visible la primera vez. Por defecto es cero.",
+            "booleano": false,
+            "valor": "Numero entero",
+            "ejemplo": [
+                "<select size=\"4\">Opciones...</select>"
+            ]
+        }
+    }
 }

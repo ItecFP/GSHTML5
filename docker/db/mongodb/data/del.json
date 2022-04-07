@@ -1,49 +1,22 @@
 {
     "nombre": "del",
-    "descripcion": "El elemento del (deleted-borrado) marca las partes de un texto o documento que han sido suprimidas o sustituidas. Sus etiquetas son: <del> y </del> (ambas obligatorias). Crea una caja: a veces en linea a veces en bloque. Está definido como: Puede contener: depende, si actua como un elemento en bloque puede contener elementos en bloque y en linea. Pero si actua como un elemento en linea solo podrá contener elementos en linea.",
+    "descripcion": "El elemento del marca las partes de un texto o documento que han sido suprimidas o sustituidas. Crea una caja: a veces en linea y otras en bloque. Está definido como: Puede contener: depende, si actuá como un elemento en bloque puede contener elementos en bloque y en linea. Pero si actuá como un elemento en linea solo podrá contener elementos en linea.",
     "ejemplo": [
-
         "Ejemplo de ins en linea: <p> El agua es insípida <del>y húmeda.</del> <ins>inodora e incolora.</ins> </p> Ejemplo de ins en bloque: <p> El agua es insípida. </p> <del> <p> y húmeda. </p> </del>"
     ],
     "vacio": false,
     "categoria": "Modificadores",
     "atributo": {
-        "title": {
-            "descripcion": "título consultivo del elemento.",
+        "cite": {
+            "descripcion": "Información sobre el cambio.",
             "booleano": false,
-            "valor": "texto",
+            "valor": "URL",
             "ejemplo": []
         },
-        "style": {
-            "descripcion": "información de estilo en línea.",
+        "datetime": {
+            "descripcion": "Fecha y hora del cambio.",
             "booleano": false,
-            "valor": "reglas de estilo",
-            "ejemplo": [
-                "<td colspan=\"2\"></td>"
-            ]
-        },
-        "id": {
-            "descripcion": "identificador único a nivel de documento.",
-            "booleano": false,
-            "valor": "ID",
-            "ejemplo": []
-        },
-        "Class": {
-            "descripcion": "identificador a nivel de documento, lista de clases separadas por espacios.",
-            "booleano": false,
-            "valor": "CDATA",
-            "ejemplo": []
-        },
-        "dir": {
-            "descripcion": "dirección del texto débil/neutral",
-            "booleano": false,
-            "valor": "(ltr|rtl)",
-            "ejemplo": []
-        },
-        "lang": {
-            "descripcion": "información sobre el idioma",
-            "booleano": false,
-            "valor": "código de idioma",
+            "valor": "Fecha",
             "ejemplo": []
         }
     }
