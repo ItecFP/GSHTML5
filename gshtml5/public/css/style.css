@@ -84,7 +84,7 @@ header {
     text-indent: 3.5vw;
     font-size: 6vw;
     font-family: 'Suprema', cursive;
-    animation: apagado 10s;
+    animation:apagado 12s ease-in-out, parpadear 2s ease-in-out 10s;
 }
 
 .html5 {
@@ -316,28 +316,10 @@ header {
 }
 
 @keyframes apagado {
-    0% {
+    0%,99% {
         text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
 
     }
-    84%{
-        text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
-    }
-    85% {
-        text-shadow: 0 0 0.5rem rgba(255, 193, 7, .5), 0 0 0.5rem rgba(255, 193, 7, .5), 0 0 0.6rem rgba(255, 193, 7, .5), 0 0 50px rgba(255, 193, 7, .5);
-
-    }
-
-    90% {
-        text-shadow: 0 0 0.5rem rgba(255, 193, 7, .3), 0 0 0.5rem rgba(255, 193, 7, .3), 0 0 0.6rem rgba(255, 193, 7, .3), 0 0 50px rgba(255, 193, 7, .3);
-
-    }
-
-    99% {
-        text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
-
-    }
-
     100% {
         text-shadow: none;
     }
