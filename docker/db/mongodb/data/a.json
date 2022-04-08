@@ -3,7 +3,6 @@
     "descripcion": "La etiqueta <a> define un hipervínculo que se utiliza para vincular un archivo a nuestra página. El atributo más importante del elemento <a> es el atributo href, que indica el destino del enlace, además es obligatorio.",
     "ejemplo": ["<a href=\"url\">Texto</a>"],
     "vacio": false,
-    "categoria": "Texto",
     "atributo": {
         "href": {
             "descripcion": "El valor del atributo href da la ruta absoluta o relativa del archivo al que se realiza el hipervínculo.",
@@ -27,7 +26,7 @@
             "valor": {
                 "all": "Apto para todos los dispositivos (Predeterminado)",
                 "aural": "Sintetizadores de voz.",
-                "braille": "Dispositivos de retro alimentación en braille.",
+                "braille": "Dispositivos de retroalimentación en braille.",
                 "handheld": "Dispositivos de mano (pantalla pequeña, ancho de banda limitado).",
                 "projection": "Proyectores.",
                 "print": "Modo de vista previa de impresión.",
@@ -43,8 +42,8 @@
                 "device-aspect-ratio": "Especifica la relación del ancho/alto del dispositivo de la pantalla/página de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
                 "color": "Especifica los bits por color de la pantalla de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
                 "color-index": "Especifica el número de colores que puede manejar la pantalla de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
-                "monochrome": "Especifica los bits por pixel en un buffer de fotogramas monocromáticos.Se pueden utilizar los prefijos \"min-\" y \"max-\".",
-                "resolution": "Especifica los bits por pixel en un buffer de fotogramas monocromáticos. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "monochrome": "Especifica los bits por píxel en un búfer de fotogramas monocromáticos.Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "resolution": "Especifica los bits por píxel en un búfer de fotogramas monocromáticos. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
                 "scan": "Especifica el método de escaneo de una pantalla de televisión.",
                 "grid": "Especifica si el dispositivo de salida es de cuadrícula o mapa de bits.",
                 "and": "Especifica un operador AND.",

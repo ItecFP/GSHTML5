@@ -13,15 +13,19 @@
 </head>
 <body>
     <header class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
+        
         @include('topbar')
         
     </header>
-    @include('navContent')
-    
+    <aside class="sticky-top">
+
+        @include('navContent')
+
+    </aside>     
     <main>
         
         @include('tagDetailContent')
-       {{print_r($tagdata)}}
+       
     </main>
 </body>
 </html>

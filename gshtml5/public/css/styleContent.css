@@ -12,7 +12,7 @@ section:hover .card-header{
     padding-left: 5%;
 }
 
-.navbar{
+.navbar-content{
     background-color: var(--principal0);
     color: var(--secundario);
     width: 100%;
