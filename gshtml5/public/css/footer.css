@@ -1,50 +1,40 @@
-
 .footer {
-        margin:0;
-        padding:0;
-        font-family: 'fuente_principal';
+    margin: 0;
+    padding: 0;
+    font-family: 'fuente_principal';
     width: 100%;
-    background-color: rgb(157, 126, 34);
+
 }
 
-.footer .nivel1{
-  width: 100%;  
-  max-width: 1200;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: -20px;
- 
+.footer .nivel1 {
+    width: 100%;
+    max-width: 1200;
+    margin: auto;
+
 }
 
-.footer .nivel1 .contactos{
-    margin-bottom: 25;
-    font-size: 20px;
+.footer .nivel1 .contactos {
+
+    font-size: 30px;
     text-align: center;
-    margin: 0px;
-    
-   
-  
+    margin: 50px;
 }
 
-.footer .nivel1 .caja .sobre_nosotros{
-    color: white;
-    margin-bottom: 10px;
+.footer .nivel1 .caja .sobre_nosotros {
+
+    margin-bottom: 3px;
     text-align: center;
-    padding: 5;
-    width: 10px;
+    padding: 10px;
     margin: auto;
+
 }
 
-.footer .nivel1 .caja .sobre_nosotros p{
-    padding: 0px;
-    width: 0px;
-    margin: 0px;
-    margin: auto;
-    padding: 5;
-    width: 10px;
-    margin: auto;
-    
+.footer .nivel1 .caja p {
+
+    text-align: center;
+    margin-bottom: 1px;
+
+
 }
 
 .footer .nivel2 {
@@ -52,3 +42,11 @@
 
 }
 
+.container {
+    height: 3rem;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
