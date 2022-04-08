@@ -1,15 +1,18 @@
-/*NAVCONTENT*/
+/*CATEGORIA*/
 
 .navContentbg{
     background-color: var(--principal3);
 }
 
-.navContent .container-fluid .navbar-collapse .navbar-nav .nav-item .active{
-    
+.catTitle{
+    color: var(--principal1);
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Logo', sans-serif;
 }
 
 
-/*NAVCONTENT*/
+/*CATEGORIA*/
 
 
 /*INDEX*/
