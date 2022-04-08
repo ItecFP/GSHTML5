@@ -33,13 +33,13 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
       - MONGO_INITDB_DATABASE=${MONGO_DATABASE}
       - MONGO_INITDB_COLLECTION=${MONGO_TAGS_COLLECTION}
-      - USER=${USER}
-      - GROUP=${GROUP}
+      - MONGO_USER=${USER}
+      - MONGO_GROUP=${GROUP}
     ports:
       - 27017:27017
     volumes:
       - ../mongodata:/data
-      - ../logs/mongo:/var/log/mongodb
+      #- ../logs/mongo:/var/log/mongodb
     networks:
       - projectnetwork
 networks:
