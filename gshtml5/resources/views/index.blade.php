@@ -42,5 +42,8 @@
             @include('categoriagrid')
         </main>
     </div>
+    <footer>
+        @include('footer')
+    </footer>
 </body>
 </html>
