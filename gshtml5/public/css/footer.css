@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-.footer{
-=======
 
 .footer {
-        margin:0;
-        padding:0;
-        font-family: 'fuente_principal';
->>>>>>> bb150f645606aae166a1a646bc3756b79d06ad41
+    margin:0;
+    padding:0;
+    font-family: 'fuente_principal';
     width: 100%;
     background-color: rgb(157, 126, 34);
     margin:0;
