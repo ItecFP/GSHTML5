@@ -1,10 +1,10 @@
 {
-    "nombre": "code",
-    "descripcion": "Esta etiqueta se usa para definir un fragmento de código de computadora. El contenido del interior se muestra en la fuente monoespaciada predeterminada del navegador.",
-    "ejemplo": [
+    "Name": "code",
+    "Description": "Esta etiqueta se usa para definir un fragmento de código de computadora. El contenido del interior se muestra en la fuente monoespaciada predeterminada del navegador.",
+    "Example": [
         "<code>Código</code>"
     ],
-    "vacio": false,
-    "categoria": "Texto",
-    "atributo": {}
+    "Empty": false,
+    "Category": "Texto",
+    "Attribute": {}
 }
