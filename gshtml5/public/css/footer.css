@@ -1,25 +1,11 @@
-<<<<<<< HEAD
 .footer {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     font-family: 'fuente_principal';
-    width: 100%;
-
-=======
-<<<<<<< HEAD
-.footer{
-=======
-
-.footer {
-        margin:0;
-        padding:0;
-        font-family: 'fuente_principal';
->>>>>>> bb150f645606aae166a1a646bc3756b79d06ad41
     width: 100%;
     background-color: rgb(157, 126, 34);
     margin:0;
     padding:0;
->>>>>>> 0c5de2709da06e6497d3fea55e10d01ace2ed9ec
 }
 
 .footer .nivel1 {
