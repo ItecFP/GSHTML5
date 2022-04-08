@@ -96,7 +96,12 @@ return [
         'mongodb' => [
             'driver' => 'mongodb',
             'dsn' => env('DB_URI', 'mongodb://localhost:27017'),
-            'database' => env('DB_DATABASE', 'gshtml')
+            'database' => env('DB_DATABASE', 'gshtml5db'),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', 'root'),
+            'options' => [
+                'database' => env('DB_AUTHENTICATION_DATABASE', 'admin')
+            ]
         ]
 
     ],
