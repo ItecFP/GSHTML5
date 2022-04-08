@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 .footer{
+=======
+
+.footer {
+        margin:0;
+        padding:0;
+        font-family: 'fuente_principal';
+>>>>>>> bb150f645606aae166a1a646bc3756b79d06ad41
     width: 100%;
     background-color: rgb(157, 126, 34);
     margin:0;
@@ -25,23 +33,28 @@
   
 }
 
-.footer .nivel1 .sobre_nosotros{
+.footer .nivel1 .caja .sobre_nosotros{
     color: white;
     margin-bottom: 10px;
     text-align: center;
-    padding: -5;
-    width: 50px;
-    margin: 0px;
+    padding: 5;
+    width: 10px;
+    margin: auto;
 }
 
-.footer .nivel1 .p{
+.footer .nivel1 .caja .sobre_nosotros p{
     padding: 0px;
     width: 0px;
     margin: 0px;
+    margin: auto;
+    padding: 5;
+    width: 10px;
+    margin: auto;
     
 }
 
 .footer .nivel2 {
     text-align: center;
+
 }
 

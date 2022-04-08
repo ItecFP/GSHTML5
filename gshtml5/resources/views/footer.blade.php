@@ -1,10 +1,6 @@
       <div class="nivel1">
 
         <div class="caja">
-            <!-- LOGO PRINCIPAL -->
-        </div>
-
-        <div class="caja">
             <h2 class="sobre_nosotros">Sobre nosotros</h2>
             <p> Somos alumnos de 1º de DAW del centro ITEC en Antequera (Málaga)</p>
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, nemo.</p>
@@ -14,7 +10,7 @@
         <div class="caja">
 
         <h2 class="contactos">
-         <a href="#">¿Quieres contactarnos?</a>
+         <a href="/nosotros">¿Quieres contactarnos?</a>
         </h2>
 
         </div>
