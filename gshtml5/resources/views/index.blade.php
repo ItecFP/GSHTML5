@@ -8,6 +8,7 @@
     <title>Guía Suprema - HTML5</title>
     <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/navbar.js"></script>
 </head>
@@ -42,7 +43,8 @@
             @include('categoriagrid')
         </main>
     </div>
-    <footer>
+
+    <footer class="footer">
         @include('footer')
     </footer>
 </body>

@@ -1,8 +1,10 @@
 {
-    "nombre": "!-- --",
-    "descripcion": "La etiqueta de comentarios se utiliza, para comentar código, lo que escribas no se verá en el navegador. Se puede usar para explicar el código o tomar apuntes de lo que queda por desarrollar, apuntar ideas, etc...",
-    "ejemplo": ["<!--Aquí hay un comentario-->"],
-    "vacio": false,
-    "categoria": "Texto",
-    "atributo": {}
+    "Name": "!-- --",
+    "Description": "La etiqueta de comentarios se utiliza, para comentar código, lo que escribas no se verá en el navegador. Se puede usar para explicar el código o tomar apuntes de lo que queda por desarrollar, apuntar ideas, etc...",
+    "Example": [
+        "<!--Aquí hay un comentario-->"
+    ],
+    "Empty": false,
+    "Category": "Texto",
+    "Attribute": {}
 }

@@ -1,5 +1,5 @@
 <!--navegacion de contenido, nombre etiqueta, descripcion, contenido y ejemplo-->
-<nav class="navbar navbar-expand-lg navContentbg navContent">
+<nav class="navbar-content navbar-expand-lg navContentbg navContent">
   <div class="container-fluid">
     <button class="navbar-toggler bg-warning ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon navContentButton"></span>
@@ -19,10 +19,7 @@
         <li class="nav-item">
           <a class="nav-link link-warning" href="#ejemplos">Ejemplos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link link-warning" href="#ejemplos">Ejemplos</a>
-        </li>
-
+        
       </ul>
       
     </div>
