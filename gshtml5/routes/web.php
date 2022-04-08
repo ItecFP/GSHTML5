@@ -17,6 +17,9 @@ use App\Http\Controllers\TagController;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
 Route::get('/content/ejemplo', function () {
     return view('content');
 });
