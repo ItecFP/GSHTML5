@@ -21,6 +21,7 @@ services:
       - projectnetwork
   mongo:
     container_name: ${projectname}_mongo
+    user: "${USER}:${GROUP}"
     build:
       context: ./db
       dockerfile: mongodb/mongodb.dockerfile
@@ -34,6 +35,8 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_ROOT_USER}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
       - MONGO_INITDB_DATABASE=${MONGO_DATABASE}
+      - USER=${USER}
+      - GROUP=${GROUP}
     ports:
       - 27017:27017
     volumes:
