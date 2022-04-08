@@ -1,26 +1,27 @@
 /*INDEX*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     --header-height: 5rem;
-    --principal0: rgba(32,32,32, 1);
-    --principal1: rgba(40,40,40, 1);
-    --principal2: rgba(48,48,48, 1);
-    --principal3: rgba(56,56,56, 1);
-    --principal4: rgba(64,64,64, 1);
+    --principal0: rgba(32, 32, 32, 1);
+    --principal1: rgba(40, 40, 40, 1);
+    --principal2: rgba(48, 48, 48, 1);
+    --principal3: rgba(56, 56, 56, 1);
+    --principal4: rgba(64, 64, 64, 1);
     --secundario: rgba(255, 193, 7, 0.9);
     --secundario2: rgba(255, 193, 7, 1);
     --secundario3: rgba(255, 193, 7, 0.3);
 }
 
-.enlaces__categorias{
+.enlaces__categorias {
     text-decoration: none;
     color: black;
 }
 
-.enlaces__categorias:hover{
+.enlaces__categorias:hover {
     color: var(--secundario2);
 }
 
@@ -37,141 +38,194 @@
 @font-face {
     font-family: 'Suprema';
     src: url('../fonts/lobster-regular-webfont.woff2') format('woff2'),
-         url('../fonts/lobster-regular-webfont.woff') format('woff');
+        url('../fonts/lobster-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Logo';
     src: url('../fonts/racingsansone-regular-webfont.woff2') format('woff2'),
-         url('../fonts/racingsansone-regular-webfont.woff') format('woff');
+        url('../fonts/racingsansone-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 /*LOGO*/
-header{
+header {
     background-color: black;
     padding: 10px;
     margin: 0px;
-    text-indent:50px ;
+    text-indent: 50px;
     overflow: hidden;
-    
+
 }
 
-.guia{
+.guia {
     color: white;
     line-height: 2vh;
-    text-indent:7.1vw;
-    font-size:3vw;
+    text-indent: 7.1vw;
+    font-size: 3vw;
     font-family: 'Logo', sans-serif;
 }
 
-.suprema{
+.suprema {
     color: white;
     line-height: 3vh;
-    text-indent:3.5vw;
+    text-indent: 3.5vw;
     font-size: 6vw;
-    text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
     font-family: 'Suprema', cursive;
+    animation: apagado 10s;
 }
 
 .html5 {
     color: white;
     line-height: 2.5vh;
-    text-indent:16vw;
-    font-size:3vw;
+    text-indent: 16vw;
+    font-size: 3vw;
     font-family: 'Logo', sans-serif;
 }
 
-/* EFECTOS */ 
+/* EFECTOS */
 
-        /* PARPADEOS NEON */
+/* PARPADEOS NEON */
 .parpadear {
+    text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
     animation: parpadear 2.0s infinite backwards;
 }
 
 
-@keyframes parpadear{
-    0% { opacity: 1; }
-    10% { opacity: .6; }
-    12% { opacity: 1; }
-    15% { opacity: .4; }
-    17% { opacity: 1; }
-    18% { opacity: .3; }
-    19% { opacity: 1; }
-    89% { opacity: 1; }
-    91% { opacity: .7; }
-    94% { opacity: 1; }
-    100% { opacity: 1; }
+@keyframes parpadear {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: .6;
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    15% {
+        opacity: .4;
+    }
+
+    17% {
+        opacity: 1;
+    }
+
+    18% {
+        opacity: .3;
+    }
+
+    19% {
+        opacity: 1;
+    }
+
+    89% {
+        opacity: 1;
+    }
+
+    91% {
+        opacity: .7;
+    }
+
+    94% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .fall {
-    transform-origin:center;
+    transform-origin: center;
     animation: fall 0.6s ease-in-out;
 }
 
-  @keyframes fall /* Palabra Suprema */{
-    0% {
-      transform:translateY(0);
-    }
-    25% {
-      transform: translateY(-15px);
-    }
-    75%{
-      transform: translateY(5px);
-    }
-    100%{
-        transform:translateY(0);
-    }
-  }
+@keyframes fall
 
-  
-  @keyframes fall2{ /* Palabra Guía */
+/* Palabra Suprema */
+    {
     0% {
-        transform:translateY(0);
-      }
-      50% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-15px);
+    }
+
+    75% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes fall2 {
+
+    /* Palabra Guía */
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
         transform: translateY(-25px);
-      }
-      75%{
+    }
+
+    75% {
         transform: translateY(7px);
-      }
-      100%{
-          transform:translateY(0);
-      }
-      
-  }
-  .fall2 {
-    transform-origin:center;
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.fall2 {
+    transform-origin: center;
     animation: fall2 0.8s ease-in-out;
 }
 
-@keyframes fall3{ /* Palabra html5 */
+@keyframes fall3 {
+
+    /* Palabra html5 */
     0% {
-        transform:translateY(0);
-      }
-      50% {
+        transform: translateY(0);
+    }
+
+    50% {
         transform: translateY(0px);
-      }
-      75%{
+    }
+
+    75% {
         transform: translateY(2px);
-      }
-      100%{
-          transform:translateY(0);
-      }
-      
-  }
-  .fall3 {
-    transform-origin:center;
-    animation: fall3 0.8s ;
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.fall3 {
+    transform-origin: center;
+    animation: fall3 0.8s;
 }
 
 .fall {
-    transform-origin:center;
+    transform-origin: center;
     animation: fall 0.6s ease-in-out;
 }
-            /*LOGO SECUNDARIO*/
+
+/*LOGO SECUNDARIO*/
 
 /* @keyframes fall4 Palabra Suprema {
     0% {
@@ -194,9 +248,9 @@ header{
     animation: fall4 0.6s ease-in-out;
 }
 */
-            /* .:::FIN:::LOGO SECUNDARIO:::.*/
+/* .:::FIN:::LOGO SECUNDARIO:::.*/
 
-        /*.:::FIN:::MOVIMIENTOS:::.
+/*.:::FIN:::MOVIMIENTOS:::.
 
 
 /* .:::FIN:::EFECTOS:::.*/
@@ -207,50 +261,79 @@ header{
     font-size: 1rem;
     text-decoration: none !important;
 }
+
 /* .:::FIN:::lOGO:::.*/
 
 
 
 /* LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO) */
 
-.h{
+.h {
     font-size: 5.5rem;
     font-family: 'Logo', sans-serif;
     color: white;
-  
+
 }
 
-.tml{
+.tml {
     font-size: 1.9rem;
     font-family: 'Logo', sans-serif;
     color: white;
 }
 
-.cinco{
+.cinco {
     font-size: 5.5rem;
     font-family: 'Logo', sans-serif;
     color: white;
 
 }
 
-.s{
+.s {
     font-family: 'Suprema', cursive;
-    position: absolute; 
+    position: absolute;
     font-size: 2.5rem;
     right: 84vw;
     top: 3.4vw;
-    
+
 }
 
-.g{
+.g {
     font-family: 'Logo', cursive;
-    position: absolute; 
+    position: absolute;
     font-size: 2.6rem;
     right: 86vw;
     top: 2.4vw;
-    
+
 }
 
+@keyframes apagado {
+    0% {
+        text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
+
+    }
+    84%{
+        text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
+    }
+    85% {
+        text-shadow: 0 0 0.5rem rgba(255, 193, 7, .5), 0 0 0.5rem rgba(255, 193, 7, .5), 0 0 0.6rem rgba(255, 193, 7, .5), 0 0 50px rgba(255, 193, 7, .5);
+
+    }
+
+    90% {
+        text-shadow: 0 0 0.5rem rgba(255, 193, 7, .3), 0 0 0.5rem rgba(255, 193, 7, .3), 0 0 0.6rem rgba(255, 193, 7, .3), 0 0 50px rgba(255, 193, 7, .3);
+
+    }
+
+    99% {
+        text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
+
+    }
+
+    100% {
+        text-shadow: none;
+    }
+
+}
 
 
 
@@ -264,7 +347,7 @@ header{
 
 /*HEADER*/
 
-header{
+header {
     background-color: var(--principal1);
 }
 
@@ -277,11 +360,11 @@ header{
     background-color: var(--secundario2);
 }
 
-#cerrar{
+#cerrar {
     display: none;
 }
 
-[alt="iconmenu"]{
+[alt="iconmenu"] {
     width: 2rem;
     height: 2rem;
 }
@@ -298,7 +381,8 @@ header{
     box-shadow: 0 0 0 0.25rem var(--secundario3);
 }
 
-.btn-check:focus + .btn, .btn:focus {
+.btn-check:focus+.btn,
+.btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0.25rem var(--secundario3);
 }
