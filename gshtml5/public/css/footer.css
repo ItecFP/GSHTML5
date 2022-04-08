@@ -1,51 +1,68 @@
-*{
-    margin:0;
-    padding:0;
+<<<<<<< HEAD
+.footer {
+    margin: 0;
+    padding: 0;
     font-family: 'fuente_principal';
-}
+    width: 100%;
 
+=======
+<<<<<<< HEAD
 .footer{
+=======
+
+.footer {
+        margin:0;
+        padding:0;
+        font-family: 'fuente_principal';
+>>>>>>> bb150f645606aae166a1a646bc3756b79d06ad41
     width: 100%;
     background-color: rgb(157, 126, 34);
+    margin:0;
+    padding:0;
+>>>>>>> 0c5de2709da06e6497d3fea55e10d01ace2ed9ec
 }
 
-.footer .nivel1{
-  width: 100%;  
-  max-width: 1200;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: -20px;
- 
+.footer .nivel1 {
+    width: 100%;
+    max-width: 1200;
+    margin: auto;
+
 }
 
-.footer .nivel1 .contactos{
-    margin-bottom: 25;
-    font-size: 20px;
+.footer .nivel1 .contactos {
+
+    font-size: 30px;
     text-align: center;
-    margin: 0px;
-    
-   
-  
+    margin: 50px;
 }
 
-.footer .nivel1 .sobre_nosotros{
-    color: white;
-    margin-bottom: 10px;
+.footer .nivel1 .caja .sobre_nosotros {
+
+    margin-bottom: 3px;
     text-align: center;
-    padding: -5;
-    width: 50px;
-    margin: 0px;
+    padding: 10px;
+    margin: auto;
+
 }
 
-.footer .nivel1 .p{
-    padding: 0px;
-    width: 0px;
-    margin: 0px;
-    
+.footer .nivel1 .caja p {
+
+    text-align: center;
+    margin-bottom: 1px;
+
+
 }
 
 .footer .nivel2 {
     text-align: center;
+
 }
 
+.container {
+    height: 3rem;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}

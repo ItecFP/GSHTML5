@@ -232,7 +232,7 @@ header {
 
 .fall3 {
     transform-origin: center;
-    animation: fall3 0.8s;
+    animation: fall3 0.8s ease-in-out;
 }
 
 .fall {
@@ -271,7 +271,7 @@ header {
 /* .:::FIN:::EFECTOS:::.*/
 
 .logo {
-    margin: 0;
+    margin: 0.3rem;
     line-height: 150%;
     font-size: 1rem;
     text-decoration: none !important;

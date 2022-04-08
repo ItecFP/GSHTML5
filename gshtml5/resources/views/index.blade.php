@@ -43,6 +43,7 @@
             @include('categoriagrid')
         </main>
     </div>
+
     <footer class="footer">
         @include('footer')
     </footer>
