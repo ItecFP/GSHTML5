@@ -6,12 +6,46 @@
 
 .footer{
     width: 100%;
-    background-color: rgba(255, 193, 7, 1);
+    background-color: rgb(157, 126, 34);
 }
 
 .footer .nivel1{
   width: 100%;  
   max-width: 1200;
   margin: auto;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: -20px;
+ 
 }
+
+.footer .nivel1 .contactos{
+    margin-bottom: 25;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    
+   
+  
+}
+
+.footer .nivel1 .sobre_nosotros{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: -5;
+    width: 50px;
+    margin: 0px;
+}
+
+.footer .nivel1 .p{
+    padding: 0px;
+    width: 0px;
+    margin: 0px;
+    
+}
+
+.footer .nivel2 {
+    text-align: center;
+}
+
