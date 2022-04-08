@@ -22,8 +22,11 @@
             @include('navContent')
         </div>
         <main id="contenido">
-            
+            @include('categoriadetailsMain')
         </main>
     </div>
+    <footer>
+        @include('footer')
+    </footer>
 </body>
 </html>

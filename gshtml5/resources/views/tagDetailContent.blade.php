@@ -15,7 +15,7 @@
             @endif
         </p>
         @foreach ($tagdata["ejemplo"] as $item => $valor)
-             <p class="card-text"><strong>Ejemplo:</strong> {{$tagdata["ejemplo"][$item]}}</p>
+             <p class="card-text"><strong>Ejemplo:</strong> <code>{{$tagdata["ejemplo"][$item]}}</code> </p>
         @endforeach
        
         </div>
@@ -40,7 +40,7 @@
                 
                     @if ($tagdata["atributo"][$clave][$subclave] == $tagdata["atributo"][$clave]["ejemplo"])
                         
-                    <p class="card-text"><strong>Ejemplo:</strong>  {{$tagdata["atributo"][$clave]["ejemplo"][$i++]}}</p>
+                    <p class="card-text"><strong>Ejemplo:</strong> <code>{{$tagdata["atributo"][$clave]["ejemplo"][$i++]}}</code> </p>
                     
                     @else
  
