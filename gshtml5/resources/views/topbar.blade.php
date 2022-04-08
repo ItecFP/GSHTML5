@@ -1,5 +1,5 @@
-<div class="container-fluid d-flex justify-content-between align-content-center align-items-center">
-    <a class="logo" href="./index.html">
+<div class="container-fluid d-flex flex-wrap justify-content-between align-content-center align-items-center">
+    <a class="logo" href="/">
         <h1 id="logo">
             <p class="guia">Guía</p>
             <p class="suprema"><span class="parpadear">S</span>uprema</p>
