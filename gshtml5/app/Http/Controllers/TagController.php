@@ -53,7 +53,7 @@ class TagController extends Controller
     //funciones con los datos de las etiquetas
 
     public function tag_a(){
-        $content_etiqueta = file_get_contents('C:\GSHtml5\docker\db\mongodb\data\a.json');
+        $content_etiqueta = file_get_contents('/home/ignacio/GSHTML5/docker/db/mongodb/data/a.json');
         $json_en_array_php = json_decode($content_etiqueta, true);
 
         return view("tagDetail",["tagdata"=>$json_en_array_php]);
