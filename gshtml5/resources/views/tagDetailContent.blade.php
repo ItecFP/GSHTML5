@@ -14,6 +14,7 @@
                 false
             @endif
         </p>
+        <p class="card-text"><strong>Category:</strong> {{$tagdata["categoria"]}}</p>
         @foreach ($tagdata["ejemplo"] as $item => $valor)
              <p class="card-text"><strong>Ejemplo:</strong> <code>{{$tagdata["ejemplo"][$item]}}</code> </p>
         @endforeach
