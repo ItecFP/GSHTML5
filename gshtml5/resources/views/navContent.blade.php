@@ -19,10 +19,7 @@
         <li class="nav-item">
           <a class="nav-link link-warning" href="#ejemplos">Ejemplos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link link-warning" href="#ejemplos">Ejemplos</a>
-        </li>
-
+        
       </ul>
       
     </div>
