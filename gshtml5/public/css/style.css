@@ -79,7 +79,8 @@ header {
 }
 
 .suprema {
-    color: white;
+    text-shadow: 0 0 0.1rem rgb(106, 107, 96);
+    color: rgba(255, 255, 255, 0.3);
     line-height: 3vh;
     text-indent: 3.5vw;
     font-size: 6vw;
