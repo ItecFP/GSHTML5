@@ -1,12 +1,8 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: 'fuente_principal';
-}
-
 .footer{
     width: 100%;
     background-color: rgb(157, 126, 34);
+    margin:0;
+    padding:0;
 }
 
 .footer .nivel1{
