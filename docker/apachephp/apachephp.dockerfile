@@ -6,7 +6,10 @@ RUN apt update && apt-get install -y \
     libonig-dev \
     libxml2-dev \
     zip \
-    unzip
+    unzip \
+    libcurl4-openssl-dev \
+    pkg-config \
+    libssl-dev
 
 COPY virtualhost.conf /etc/apache2/sites-available/virtualhost.conf
 COPY apache2.conf /etc/apache2/apache2.conf
