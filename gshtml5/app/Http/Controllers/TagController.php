@@ -34,12 +34,12 @@ class TagController extends Controller
         $result = [];
         foreach ($categories as $value) {
             array_push($result, [
-                "categoria" => $value,
+                "nombre" => $value,
                 "url" => "/categoria/$value"
             ]);
         }
 
-        return $result;
+        return view("index",["categorias"=>$result]);
     }
 
     public function search(Request $request)

@@ -22,25 +22,6 @@
         <main id="contenido">
             @include('presentacion')
             @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
         </main>
     </div>
 
