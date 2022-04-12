@@ -5,8 +5,8 @@
     "version": "0.2.0",
     "compounds": [
         {
-            "name": "Depurar",
-            "configurations": ["Listen for XDebug", "Launch Chrome"]
+            "name": "Depurar Laravel",
+            "configurations": ["Listen for XDebug", "Launch Edge"]
         }
     ],
     "configurations": [
