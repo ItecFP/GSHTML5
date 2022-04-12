@@ -25,21 +25,7 @@ class TagController extends Controller
 
     public function getCategories()
     {
-        $documents = Tag::get(['categoria'])
-        ->groupBy(['categoria'])
-        ->all();
-
-        $categories = array_keys($documents);
-
-        $result = [];
-        foreach ($categories as $value) {
-            array_push($result, [
-                "nombre" => $value,
-                "url" => "/categoria/$value"
-            ]);
-        }
-
-        return view("index",["categorias"=>$result]);
+        return view("index",["categorias"=>tag::getAllCategories()]);
     }
 
     public function search(Request $request)

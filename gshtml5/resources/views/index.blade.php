@@ -18,12 +18,11 @@
     <header id ="topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
        @include('topbar')
     </header>
-    <div class="d-flex">
-        <main id="contenido">
-            @include('presentacion')
-            @include('categoriagrid')
-        </main>
-    </div>
+
+    <main id="contenido">
+        @include('presentacion')
+        @include('categoriagrid')
+    </main>
 
     <footer class="footer">
         @include('footer')

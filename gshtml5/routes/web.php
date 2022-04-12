@@ -15,7 +15,9 @@ use App\Http\Controllers\TagController;
 */
 
 Route::get('/', [TagController::class, "getCategories"]);
-
+Route::get("/info",function(){
+    return phpinfo();
+});
 Route::get('/nosotros', function () {
     return view('nosotros');
 });
