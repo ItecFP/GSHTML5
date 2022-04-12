@@ -7,37 +7,24 @@ use App\Models\Tag;
 
 class TagController extends Controller
 {
-   public function showTag($name)
-    {
-        return Tag::where("nombre", "=", $name)->first();
-    }
-
-
-    public function getTags()
-    {
-        return Tag::all();
-    }
-
-    public function getCategory($category = "")
-    {
-        return Tag::where('categoria', '=', $category)->get();
-    }
 
     public function getCategories()
     {
         return view("index",["categorias"=>tag::getAllCategories()]);
     }
 
-    public function search(Request $request)
+    public function getTag($name)
     {
-        $nombreCampo = $request->input("nombreCampo", "nombre");
-        $busqueda = $request->input("busqueda", "");
+        return view("tagDetail",[ "tagdata" => Tag::getTag($name)]);
+    }
 
-        return Tag::where($nombreCampo, "like", "%$busqueda%")->get();
+    public function getTagCategory($category)
+    {
+        return view("tagCategory",["tags"=>Tag::getCategory($category)]);
     }
 
     //funciones con los datos de las etiquetas
-
+/*
     public function tag_a(){
 
         $content_etiqueta = file_get_contents('C:\a\docker\db\mongodb\data\a.json');
@@ -65,5 +52,5 @@ class TagController extends Controller
 
         return view("tagDetail",["tagdata"=>$json_en_array_php]);
     }
-
+*/
 }
