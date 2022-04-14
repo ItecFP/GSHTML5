@@ -54,7 +54,7 @@ class TagController extends Controller
 
     public function tag_a(){
 
-        $content_etiqueta = file_get_contents('C:\a\docker\db\mongodb\data\a.json');
+        $content_etiqueta = file_get_contents('C:\GSHtml5\docker\db\mongodb\data\a.json');
 
 
         $json_en_array_php = json_decode($content_etiqueta, true);
