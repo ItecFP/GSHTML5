@@ -79,5 +79,35 @@ class TagController extends Controller
 
         return view("tagDetail",["tagdata"=>$json_en_array_php]);
     }
+    //prueba Sergio de mongoDB
+    public function pruebaMongoSergio() {
+ 
+        // Defino el servidor local y el puerto 
+        $host = 'localhost';
+        $puerto = '27017';
+
+        // Realizamos la conexión a la Base de Datos MongoDB 
+        $conexion = new \MongoDB\Driver\Manager("mongodb://$host:$puerto"); 
+
+        // En estas 2 variables puedo filtrar y colocar opciones, pero por 
+        // el momento no deseo aplicar alguna, asi que las dejare con el valor array()
+        // a ambas variables 
+        $filtrar = array();
+        $options = array();
+
+        // Pasamos las 2 variables anteriores en la variable '$query' 
+        $query = new \MongoDB\Driver\Query($filtrar, $options);
+
+        // Definimos la cosntante definida RP_PRIMARY que es la predeterminada
+        // Puedes leer más en php.net/manual/es/class.mongodb-driver-readpreference.php
+        //$leerPreferencia = new \MongoDB\Driver\ReadPreference(\MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED);		
+        
+        // Seleccionamos la base de datos 'bD_prueba' y la colección 'Coleccion_prueba'
+        $tagdata = $conexion->executeQuery("bD_prueba.Coleccion_prueba", $query);			
+
+        // Enviamos la variable '$datos' a la vista 'pruebaBD.blade.php' 
+        return view('pruebaBD', compact('tagdata')); 
+
+    }
 
 }
