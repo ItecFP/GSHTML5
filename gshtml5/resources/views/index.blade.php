@@ -7,21 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guía Suprema - HTML5</title>
     <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/stylecat.css">
     <link rel="stylesheet" href="/css/footer.css">
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/navbar.js"></script>
 </head>
 
-<body>
+<body class="container-fluid m-0 p-0">
 
-    <header id ="topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
+    <header id ="row topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
        @include('topbar')
     </header>
 
-    <main id="contenido">
-        @include('presentacion')
-        @include('categoriagrid')
+    <main id="row">
+            @include('presentacion')
+            @include('categoriagrid')
     </main>
 
     <footer class="footer">

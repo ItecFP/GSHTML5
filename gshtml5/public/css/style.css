@@ -25,7 +25,7 @@
     color: var(--secundario2);
 }
 
-.row {
+.row-centered {
     text-align: center;
     font-size: x-large;
     margin: 0 2rem;
@@ -257,7 +257,7 @@ header {
     }
 }
 
-  
+
 .fall4 {
     transform-origin:center;
     animation: fall4 0.6s ease-in-out;
@@ -402,3 +402,8 @@ h2 {
 }
 
 /*BODY*/
+.gshtml-grid-item{
+    width: 15rem;
+    height: 5rem;
+    text-decoration-color: var(--secundario2) !important;
+}

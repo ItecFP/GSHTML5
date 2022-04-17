@@ -1,13 +1,8 @@
-<div class="row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center">
+<div class="d-grid gap-2 d-md-block m-3 w-100">
+    <h2>Categorias de elementos HTML 5</h2>
     @for($i=0; $i<count($categorias); $i++)
-        <div class="col-12 col-sm-3 col-md-3 col-lg-3 ">
-            <a href="{{$categorias[$i]["url"]}}" class="enlaces__categorias link">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="py-3 ">
-                        <h2>{{$categorias[$i]["nombre"]}}</h2>
-                    </div>
-                </div>
-            </a>
-        </div>
+        <a href="{{$categorias[$i]["url"]}}" class="btn btn-outline-dark m-3 align-middle gshtml-grid-item" >
+                {{$categorias[$i]["nombre"]}}
+        </a>
     @endfor
 </div>
