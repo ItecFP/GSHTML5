@@ -20,7 +20,7 @@
 
 <body class="container-fluid m-0 p-0">
 
-    <header id ="topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
+    <header id ="row topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
        @include('topbar')
     </header>
     <div class="d-flex">
