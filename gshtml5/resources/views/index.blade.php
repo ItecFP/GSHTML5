@@ -25,7 +25,7 @@
     </header>
     <div class="d-flex">
         <main id="contenido">
-            @include("content")
+            @include("categoriagrid")
 
         </main>
     </div>
