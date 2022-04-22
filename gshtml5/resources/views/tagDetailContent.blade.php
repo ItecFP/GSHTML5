@@ -4,19 +4,19 @@
 
     <section class="card-wrapper " >
         <a name="descripcion"></a>
-        <div class="card-header"><h3 class="card-title">{{$tagdata["nombre"]}}</h3></div>
+        <div class="card-header"><h3 class="card-title">{{$tagdata["Name"]}}</h3></div>
         <div class="card-body">
-        <p class="card-text">{{$tagdata["descripcion"]}}</p>
+        <p class="card-text">{{$tagdata["Description"]}}</p>
         <p class="card-text"><strong>Vacio:</strong>  
-            @if ($tagdata["vacio"] == true)
+            @if ($tagdata["Empty"] == true)
                 true
             @else
                 false
             @endif
         </p>
-        <p class="card-text"><strong>Category:</strong> {{$tagdata["categoria"]}}</p>
-        @foreach ($tagdata["ejemplo"] as $item => $valor)
-             <p class="card-text"><strong>Ejemplo:</strong> <code>{{$tagdata["ejemplo"][$item]}}</code> </p>
+        <p class="card-text"><strong>Category:</strong> {{$tagdata["Category"]}}</p>
+        @foreach ($tagdata["Example"] as $item => $valor)
+             <p class="card-text"><strong>Ejemplo:</strong> <code>{{$tagdata["Example"][$item]}}</code> </p>
         @endforeach
        
         </div>
@@ -28,20 +28,20 @@
 
         <div class="card-header"><h3 class="card-title"># Atributos</h3></div>
         <div class="card-body">
-        @foreach ($tagdata["atributo"] as $clave => $valor)
+        @foreach ($tagdata["Attribute"] as $clave => $valor)
             <h3 class="card-title"><strong>{{$clave}}</strong></h3>
-            @foreach ($tagdata["atributo"][$clave] as $subclave => $subvalor)
+            @foreach ($tagdata["Attribute"][$clave] as $subclave => $subvalor)
             
-            @if (is_array($tagdata["atributo"][$clave][$subclave]))
+            @if (is_array($tagdata["Attribute"][$clave][$subclave]))
                 <p><strong>Admite:</strong></p>
                 @php
                     $i = 0;
                 @endphp
-                @foreach ($tagdata["atributo"][$clave][$subclave] as $subclave2 => $subvalor2)
+                @foreach ($tagdata["Attribute"][$clave][$subclave] as $subclave2 => $subvalor2)
                 
-                    @if ($tagdata["atributo"][$clave][$subclave] == $tagdata["atributo"][$clave]["ejemplo"])
+                    @if ($tagdata["Attribute"][$clave][$subclave] == $tagdata["Attribute"][$clave]["Example"])
                         
-                    <p class="card-text"><strong>Ejemplo:</strong> <code>{{$tagdata["atributo"][$clave]["ejemplo"][$i++]}}</code> </p>
+                    <p class="card-text"><strong>Ejemplo:</strong> <code>{{$tagdata["Attribute"][$clave]["Example"][$i++]}}</code> </p>
                     
                     @else
  
@@ -53,11 +53,11 @@
                 
                     @endforeach
                     
-            @elseif (is_bool($tagdata["atributo"][$clave][$subclave]) && true)
+            @elseif (is_bool($tagdata["Attribute"][$clave][$subclave]) && true)
                 
                 <p class="card-text"><strong>Booleano:</strong> true</p>
             
-            @elseif (is_bool($tagdata["atributo"][$clave][$subclave]) && false)
+            @elseif (is_bool($tagdata["Attribute"][$clave][$subclave]) && false)
                 
                 <p class="card-text"><strong>Booleano:</strong> false</p>
 

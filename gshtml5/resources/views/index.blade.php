@@ -17,11 +17,11 @@
 
 <body class="container-fluid m-0 p-0">
 
-    <header id ="row topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
+    <header class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
        @include('topbar')
     </header>
 
-    <main id="row">
+    <main class="row">
             @include('presentacion')
             @include('categoriagrid')
     </main>
