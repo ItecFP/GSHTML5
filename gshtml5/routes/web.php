@@ -15,7 +15,7 @@ use App\Http\Controllers\TagController;
 */
 
 Route::get('/', [TagController::class, "getCategories"]);
-Route::get("/info",function(){
+Route::get("/info", function () {
     return phpinfo();
 });
 Route::get('/nosotros', function () {
@@ -25,11 +25,11 @@ Route::get('/content/ejemplo', function () {
     return view('content');
 });
 
-Route::get('/content',[TagController::class, "tag_a"]);
+Route::get('/content', [TagController::class, "tag_a"]);
 Route::get('/tag/{name}', [TagController::class, "showTag"]);
 Route::get('/tags', [TagController::class, "getTags"]);
 //Route::get('/categoria/{name}', [TagController::class, "getCategory"]);
-Route::get('/categoria/{name}', function($name){
+Route::get('/categoria/{name}', function ($name) {
     return view("categoriadetails");
 });
 Route::get('/categorias', [TagController::class, "getCategories"]);
@@ -43,4 +43,3 @@ Route::get('/tag_del', [TagController::class, "tag_del"]);
 
 //prueba de BD Sergio
 Route::get('/pruebaBD', [TagController::class, "pruebaMongoSergio"]);
-

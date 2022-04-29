@@ -9,17 +9,19 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Tag extends Model
 {
     use HasFactory;
+
     protected $connection = 'mongodb';
 
-    static public function getTag($name)
+    public static function getTag($name)
     {
         return Tag::where("Name", "=", $name)->first();
     }
-    static public function getAllTags()
+    public static function getAllTags()
     {
         return Tag::all();
     }
-    static public function getAllCategories(){
+    public static function getAllCategories()
+    {
         $documents = Tag::get(['Category'])
         ->groupBy(['Category'])
         ->all();
@@ -36,19 +38,17 @@ class Tag extends Model
         return $result;
     }
 
-    public function getCategory($category = "")
+    public static function getCategory($category = "")
     {
         return Tag::where('categoria', '=', $category)->get();
     }
 
 
-    public function search(Request $request)
+    public static function search(Request $request)
     {
         $nombreCampo = $request->input("nombreCampo", "nombre");
         $busqueda = $request->input("busqueda", "");
 
         return Tag::where($nombreCampo, "like", "%$busqueda%")->get();
     }
-
-
 }
