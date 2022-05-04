@@ -21,5 +21,8 @@
     <main>
         @include('contents.tagDetailContent')
     </main>
+    <footer>
+        @include('env.footer')
+    </footer>
 </body>
 </html>
