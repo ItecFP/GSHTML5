@@ -15,18 +15,18 @@
 <body>
 
     <header class="navbar navbar-expand-sm navbar-dark text-light">
-       @include('topbar')
+       @include('env.topbar')
     </header>
     <div>
         <div>
-            @include('navContent')
+            @include('env.navContent')
         </div>
         <main id="contenido">
-            @include('categoriadetailsMain')
+            @include('categorias.categoriadetailsMain')
         </main>
     </div>
     <footer>
-        @include('footer')
+        @include('env.footer')
     </footer>
 </body>
 </html>

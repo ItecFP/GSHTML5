@@ -12,20 +12,14 @@
     <title>Etiqueta {{$tagdata["Name"]}}</title>
 </head>
 <body>
-    <header class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
-        
-        @include('topbar')
-        
+    <header class="navbar sticky-top navbar-expand-sm navbar-dark text-light"> 
+        @include('env.topbar')
     </header>
     <aside class="sticky-top">
-
-        @include('navContent')
-
+        @include('env.navContent')
     </aside>     
     <main>
-        
-        @include('tagDetailContent')
-       
+        @include('contents.tagDetailContent')
     </main>
 </body>
 </html>
