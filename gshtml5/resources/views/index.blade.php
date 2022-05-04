@@ -20,17 +20,17 @@
 <body class="container-fluid m-0 p-0">
 
     <header id ="row topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
-       @include('topbar')
+       @include('env.topbar')
     </header>
     <div class="d-flex">
         <main id="contenido">
-            @include("categoriagrid")
+            @include("categorias.categoriagrid")
 
         </main>
     </div>
 
     <footer class="footer fixed-bottom navbar-expand-sm">
-        @include('footer')
+        @include('env.footer')
     </footer>
 </body>
 </html>
