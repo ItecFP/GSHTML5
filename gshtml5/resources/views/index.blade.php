@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +7,19 @@
     <title>Guía Suprema - HTML5</title>
     <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/stylecat.css">
     <link rel="stylesheet" href="/css/footer.css">
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/navbar.js"></script>
 </head>
-
-<body>
-
-    <header id ="topbar" class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
+<body class="container-fluid m-0 p-0">
+    <header class="navbar sticky-top navbar-expand-sm navbar-dark text-light">
        @include('topbar')
     </header>
-    <div class="d-flex">
-        <main id="contenido">
+    <main class="row">
             @include('presentacion')
             @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-            @include('categoriagrid')
-        </main>
-    </div>
-
+    </main>
     <footer class="footer">
         @include('footer')
     </footer>
