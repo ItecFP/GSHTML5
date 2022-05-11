@@ -19,6 +19,7 @@
     <main class="row">
         <span>Alberto</span>
         <span>Ignacio</span>
+        <span>kike</span>
         @include('presentacion')
         @include('categoriagrid')
     </main>
