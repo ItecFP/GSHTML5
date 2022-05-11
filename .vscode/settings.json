@@ -13,5 +13,7 @@
     "githubPullRequests.remotes": [
         "origingithub",
         "upstream"
-    ]
+    ],
+    "editor.fontSize": 20,
+    "terminal.integrated.fontSize": 20
 }
