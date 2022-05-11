@@ -9,7 +9,7 @@
                     @if ($tagdata["Empty"] == true)
                         true
                     @else
-                        false
+                         false
                     @endif
                 </p>
                 <p class="card-text"><strong>Category:</strong> {{$tagdata["Category"]}}</p>
