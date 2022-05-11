@@ -17,19 +17,14 @@
        @include('topbar')
     </header>
     <main class="row">
-<<<<<<< HEAD
         <span><h1>Juanh</h1></span>
         <span>Alberto</span>
         <span>Ignacio</span>
         <span>kike</span>
         <span>Ruben</span>
+        <span>dani</span>
         @include('presentacion')
         @include('categoriagrid')
-=======
-            <span>dani</span>
-            @include('presentacion')
-            @include('categoriagrid')
->>>>>>> dani
     </main>
     <footer class="footer">
         @include('footer')
