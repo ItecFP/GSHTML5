@@ -17,6 +17,7 @@
        @include('topbar')
     </header>
     <main class="row">
+        <span><h1>Juanh</h1></span>
         <span>Alberto</span>
         <span>Ignacio</span>
         <span>kike</span>
