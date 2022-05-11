@@ -17,6 +17,7 @@
        @include('topbar')
     </header>
     <main class="row">
+
         <span><h1>Juanh</h1></span>
         <span>Alberto</span>
         <span>Ignacio</span>
@@ -24,6 +25,7 @@
         <span>Pozo</span>
         <span>Ruben</span>
         <span>dani</span>
+        <span>Jose Antonio</span>
         @include('presentacion')
         @include('categoriagrid')
     </main>
