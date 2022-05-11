@@ -22,6 +22,8 @@
         <span>Ignacio</span>
         <span>kike</span>
         <span>Pozo</span>
+        <span>Ruben</span>
+        <span>dani</span>
         @include('presentacion')
         @include('categoriagrid')
     </main>
