@@ -17,6 +17,7 @@
        @include('topbar')
     </header>
     <main class="row">
+            <span>dani</span>
             @include('presentacion')
             @include('categoriagrid')
     </main>
